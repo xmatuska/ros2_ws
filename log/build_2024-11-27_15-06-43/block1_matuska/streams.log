@@ -1,0 +1,7 @@
+[0.014s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[0.069s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[3.919s] [ 75%] [32m[1mLinking CXX executable teleop_node[0m
+[4.055s] [ 75%] Built target teleop_node
+[9.498s] [100%] [32m[1mLinking CXX executable logger_node[0m
+[9.797s] [100%] Built target logger_node

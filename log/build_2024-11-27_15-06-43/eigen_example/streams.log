@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/matus/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/eigen_example -- -j12 -l12
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/eigen_example.dir/src/eigen_example.cpp.o[0m
+[6.734s] [100%] [32m[1mLinking CXX executable eigen_example[0m
+[6.883s] [100%] Built target eigen_example
+[6.894s] Invoked command in '/home/matus/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/eigen_example -- -j12 -l12
+[6.919s] Invoking command in '/home/matus/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/eigen_example
+[6.927s] -- Install configuration: ""
+[6.927s] -- Installing: /home/matus/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example
+[6.929s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example" to ""
+[6.929s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/ament_index/resource_index/package_run_dependencies/eigen_example
+[6.929s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/ament_index/resource_index/parent_prefix_path/eigen_example
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.sh
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.dsv
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/environment/path.sh
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/environment/path.dsv
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/local_setup.bash
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/local_setup.sh
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/local_setup.zsh
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/local_setup.dsv
+[6.930s] -- Installing: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/package.dsv
+[6.930s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/ament_index/resource_index/packages/eigen_example
+[6.931s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig.cmake
+[6.931s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig-version.cmake
+[6.931s] -- Up-to-date: /home/matus/ros2_ws/install/eigen_example/share/eigen_example/package.xml
+[6.932s] Invoked command in '/home/matus/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/eigen_example

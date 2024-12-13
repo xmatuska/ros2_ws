@@ -1,0 +1,129 @@
+[0.011s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[0.068s] [ 75%] Built target zadanie2_node
+[2.455s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:36:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.455s]    36 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr service_;
+[2.455s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.455s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:36:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.455s]    36 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr service_;
+[2.455s]       |                                           [01;31m[K^[m[K
+[2.455s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:36:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.455s]    36 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K service_;
+[2.455s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.455s]       |                                                       [32m[K;[m[K
+[2.456s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:36:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+[2.456s]    36 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kservice_[m[K;
+[2.456s]       |                                                        [01;31m[K^~~~~~~~[m[K
+[2.461s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.461s]    51 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.462s]       |                               [01;31m[K^~~~~~~~[m[K
+[2.462s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.462s]    51 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.462s]       |                                                              [01;31m[K^[m[K
+[2.466s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.466s]    51 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.466s]       |                               [01;31m[K^~~~~~~~[m[K
+[2.466s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.467s]    51 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.467s]       |                                                              [01;31m[K^[m[K
+[2.471s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.471s]    51 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.472s]       |                               [01;31m[K^~~~~~~~[m[K
+[2.472s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.472s]    51 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.472s]       |                                                              [01;31m[K^[m[K
+[2.472s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.472s]    51 |         const [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Request> request,
+[2.472s]       |               [01;31m[K^~~[m[K
+[2.472s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+[2.472s]    51 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.472s]       |                               [01;31m[K^~~~~~~~[m[K
+[2.472s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:9:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+[2.472s]    51 |         [01;31m[Kconst[m[K std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+[2.472s]       |         [01;31m[K^~~~~[m[K
+[2.472s]       |              [32m[K<>[m[K
+[2.472s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+[2.472s]                  from [01m[K/usr/include/c++/13/memory:80[m[K,
+[2.472s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[2.472s]                  from [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:1[m[K:
+[2.472s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[2.472s]   395 |     class [01;36m[Kshared_ptr[m[K;
+[2.473s]       |           [01;36m[K^~~~~~~~~~[m[K
+[2.476s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.476s]    52 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.476s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.476s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.476s]    52 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.476s]       |                                                         [01;31m[K^[m[K
+[2.481s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.481s]    52 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.481s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.481s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.481s]    52 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.481s]       |                                                         [01;31m[K^[m[K
+[2.486s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.486s]    52 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.486s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.486s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.486s]    52 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.486s]       |                                                         [01;31m[K^[m[K
+[2.486s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.486s]    52 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+[2.486s]       |         [01;31m[K^~~[m[K
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+[2.487s]    52 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.487s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:52:9:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+[2.487s]    52 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+[2.487s]       |         [01;31m[K^~~[m[K
+[2.487s]       |            [32m[K<>[m[K
+[2.487s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[2.487s]   395 |     class [01;36m[Kshared_ptr[m[K;
+[2.487s]       |           [01;36m[K^~~~~~~~~~[m[K
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In constructor ‘[01m[KTrajectoryNode::[01;32m[KTrajectoryNode[m[K()[m[K’:
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:10:71:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTrajectoryNode[m[K’ does not have any field named ‘[01m[Kcsv_file_[m[K’
+[2.487s]    10 |     TrajectoryNode() : Node("zadanie2_node"), service_called_(false), [01;31m[Kcsv_file_[m[K("trajectory_log.csv") {
+[2.487s]       |                                                                       [01;31m[K^~~~~~~~~[m[K
+[2.495s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kservice_msgs[m[K’?
+[2.495s]    15 |         [01;31m[Kservice_[m[K = this->create_service<std_srvs::srv::Trigger>(
+[2.495s]       |         [01;31m[K^~~~~~~~[m[K
+[2.496s]       |         [32m[Kservice_msgs[m[K
+[2.501s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.501s]    15 |         service_ = this->create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>(
+[2.501s]       |                                         [01;31m[K^~~~~~~~[m[K
+[2.501s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.501s]    15 |         service_ = this->[01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.502s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.507s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrajectoryNode::create_service<<expression error> >(const char [13], std::_Bind_helper<false, void (TrajectoryNode::*)(...), TrajectoryNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+[2.507s]    15 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+[2.507s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.507s]    16 | [01;31m[K            "zapni_robota",[m[K
+[2.507s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                     
+[2.507s]    17 | [01;31m[K            std::bind(&TrajectoryNode::startTrajectoryCallback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+[2.507s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.507s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.507s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.508s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[2.508s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.508s]   302 |   [01;36m[Kcreate_service[m[K(
+[2.508s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[2.508s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.508s]   318 |   [01;36m[Kcreate_service[m[K(
+[2.508s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.508s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.508s]    15 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+[2.508s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.508s]    16 | [01;31m[K            "zapni_robota",[m[K
+[2.508s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                     
+[2.508s]    17 | [01;31m[K            std::bind(&TrajectoryNode::startTrajectoryCallback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+[2.508s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.541s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryNode::[01;32m[KstartTrajectoryCallback[m[K(...)[m[K’:
+[2.541s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[2.541s]    85 |         [01;31m[Kresponse[m[K->success = true;
+[2.541s]       |         [01;31m[K^~~~~~~~[m[K
+[4.440s] gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+[4.440s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+[4.440s] gmake: *** [Makefile:146: all] Error 2
+[4.443s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12

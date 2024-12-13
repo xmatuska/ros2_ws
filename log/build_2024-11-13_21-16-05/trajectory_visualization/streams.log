@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_visualization.dir/src/trajectory_visualization.cpp.o[0m
+[8.931s] [100%] [32m[1mLinking CXX executable trajectory_visualization[0m
+[9.158s] [100%] Built target trajectory_visualization
+[9.168s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12
+[9.193s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/trajectory_visualization
+[9.200s] -- Install configuration: ""
+[9.200s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization
+[9.204s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization" to ""
+[9.204s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch
+[9.204s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.xml
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.py
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+[9.205s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+[9.205s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+[9.206s] -- Up-to-date: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml
+[9.207s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/trajectory_visualization

@@ -1,0 +1,7 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In function ‘[01m[Kdouble[01;32m[K hodnoty[m[K(double, const Eigen::VectorXd&)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:32:12:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   32 |     return [01;35m[Kpozicia[m[K, rychlost, zrychlenie;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:32:31:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   32 |     return pozicia, rychlost, [01;35m[Kzrychlenie[m[K;
+      |                               [01;35m[K^~~~~~~~~~[m[K

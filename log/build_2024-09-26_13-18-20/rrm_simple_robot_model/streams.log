@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/matus/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_simple_robot_model -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/rrm_simple_robot_model
+[0.028s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.186s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.303s] -- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.400s] -- Configuring done (0.4s)
+[0.404s] -- Generating done (0.0s)
+[0.408s] -- Build files have been written to: /home/matus/ros2_ws/build/rrm_simple_robot_model

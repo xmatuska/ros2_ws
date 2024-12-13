@@ -1,0 +1,13 @@
+[ 50%] Built target zadanie22_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryNode::[01;32m[KstartTrajectoryCallback[m[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:114:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjerk[m[K’ was not declared in this scope
+  114 |                 [01;31m[Kjerk[m[K[0] = hodnoty1[3];
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:139:146:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::JointState = struct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjerk[m[K’
+  139 |  joint_state_.velocity[0] << "," << joint_state_.effort[0] << "," << joint_state_.[01;31m[Kjerk[m[K[0] << ","
+      |                                                                                   [01;31m[K^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/zadanie2_node.dir/build.make:76: CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zadanie2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

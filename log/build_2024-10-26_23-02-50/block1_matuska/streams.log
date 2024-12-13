@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[0.065s] [ 50%] Built target teleop_node
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[2.767s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.767s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.767s]    41 |     [01;31m[Ktf2[m[K::Quaternion q;
+[2.767s]       |     [01;31m[K^~~[m[K
+[2.773s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[2.773s]    42 |     [01;31m[Kq[m[K.setRPY(0, 0, 1.57);
+[2.773s]       |     [01;31m[K^[m[K
+[5.261s] gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+[5.261s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+[5.261s] gmake: *** [Makefile:146: all] Error 2
+[5.264s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12

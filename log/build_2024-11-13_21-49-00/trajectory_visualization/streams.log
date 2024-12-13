@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12
+[0.131s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_visualization.dir/src/trajectory_visualization.cpp.o[0m
+[0.394s] [01m[K/home/matus/ros2_ws/src/trajectory_visualization/src/trajectory_visualization.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+[0.394s]     3 | #include [01;31m[K<std_srvs/srv/trigger.hpp>[m[K
+[0.394s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.394s] compilation terminated.
+[0.399s] gmake[2]: *** [CMakeFiles/trajectory_visualization.dir/build.make:76: CMakeFiles/trajectory_visualization.dir/src/trajectory_visualization.cpp.o] Error 1
+[0.399s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trajectory_visualization.dir/all] Error 2
+[0.399s] gmake: *** [Makefile:146: all] Error 2
+[0.402s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12

@@ -1,0 +1,62 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:72:40:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   72 | if (rclcpp::spin_until_future_complete([01;31m[Kthis[m[K->get_node_base_interface(), result) !=
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:72:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   72 | :spin_until_future_complete(this->get_node_base_interface(), [01;31m[Kresult[m[K) !=
+      |                                                              [01;31m[K^~~~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:1[m[K:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   74 | RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 | [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 | [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 | [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   74 | RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:74:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   74 | RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:78:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   78 | auto response = [01;31m[Kresult[m[K.get();
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:44:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | int main([01;35m[Kint argc[m[K, char ** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:44:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+      |                    [01;35m[K~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

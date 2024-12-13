@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf/arm.urdf
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config/rrm_cv3.rviz
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.xml
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.py
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/package_run_dependencies/rrm_simple_robot_model
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/parent_prefix_path/rrm_simple_robot_model
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.sh
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.dsv
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.sh
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.dsv
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.bash
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.sh
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.zsh
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/packages/rrm_simple_robot_model
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig.cmake
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig-version.cmake
+-- Installing: /home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.xml

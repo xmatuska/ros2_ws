@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[0.071s] [ 75%] Built target zadanie2_node
+[2.780s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.780s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:108:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb1m[m[K’ was not declared in this scope
+[2.780s]   108 |     a1 = [01;31m[Kklb1m[m[K.inverse() * q1;
+[2.780s]       |          [01;31m[K^~~~~[m[K
+[2.783s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:108:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kq1[m[K’ was not declared in this scope; did you mean ‘[01m[Ka1[m[K’?
+[2.783s]   108 |     a1 = klb1m.inverse() * [01;31m[Kq1[m[K;
+[2.783s]       |                            [01;31m[K^~[m[K
+[2.783s]       |                            [32m[Ka1[m[K
+[2.787s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:113:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb3m1[m[K’ was not declared in this scope
+[2.787s]   113 |     a31 = [01;31m[Kklb3m1[m[K.inverse() * q31;
+[2.787s]       |           [01;31m[K^~~~~~[m[K
+[2.790s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:113:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kq31[m[K’ was not declared in this scope; did you mean ‘[01m[Ka31[m[K’?
+[2.790s]   113 |     a31 = klb3m1.inverse() * [01;31m[Kq31[m[K;
+[2.790s]       |                              [01;31m[K^~~[m[K
+[2.790s]       |                              [32m[Ka31[m[K
+[2.793s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:118:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb3m2[m[K’ was not declared in this scope
+[2.793s]   118 |     a32 = [01;31m[Kklb3m2[m[K.inverse() * q32;
+[2.793s]       |           [01;31m[K^~~~~~[m[K
+[2.795s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:118:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kq32[m[K’ was not declared in this scope; did you mean ‘[01m[Ka32[m[K’?
+[2.795s]   118 |     a32 = klb3m2.inverse() * [01;31m[Kq32[m[K;
+[2.795s]       |                              [01;31m[K^~~[m[K
+[2.795s]       |                              [32m[Ka32[m[K
+[3.682s] gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+[3.682s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+[3.682s] gmake: *** [Makefile:146: all] Error 2
+[3.685s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12

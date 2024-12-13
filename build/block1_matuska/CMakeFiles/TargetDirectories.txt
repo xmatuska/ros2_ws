@@ -1,0 +1,11 @@
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/uninstall.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/block1_matuska_uninstall.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/teleop_node.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/logger_node.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/test.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/edit_cache.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/rebuild_cache.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/list_install_components.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/install.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/install/local.dir
+/home/matus/ros2_ws/build/block1_matuska/CMakeFiles/install/strip.dir

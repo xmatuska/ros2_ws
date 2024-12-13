@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_simple_robot_model -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/rrm_simple_robot_model
+[0.072s] -- The C compiler identification is GNU 13.2.0
+[0.138s] -- The CXX compiler identification is GNU 13.2.0
+[0.157s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.409s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.529s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.615s] -- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.685s] -- Configuring done (0.7s)
+[0.688s] -- Generating done (0.0s)
+[0.688s] -- Build files have been written to: /home/matus/ros2_ws/src/build/rrm_simple_robot_model
+[0.693s] Invoked command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_simple_robot_model -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/rrm_simple_robot_model
+[0.694s] Invoking command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/rrm_simple_robot_model -- -j12 -l12
+[0.734s] Invoked command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/rrm_simple_robot_model -- -j12 -l12
+[0.763s] Invoking command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/src/build/rrm_simple_robot_model
+[0.771s] -- Install configuration: ""
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf/arm.urdf
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config/rrm_cv3.rviz
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.xml
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.py
+[0.772s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/package_run_dependencies/rrm_simple_robot_model
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/parent_prefix_path/rrm_simple_robot_model
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.sh
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.dsv
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.sh
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.dsv
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.bash
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.sh
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.zsh
+[0.773s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.dsv
+[0.774s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv
+[0.774s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/packages/rrm_simple_robot_model
+[0.774s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig.cmake
+[0.774s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig-version.cmake
+[0.774s] -- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.xml
+[0.776s] Invoked command in '/home/matus/ros2_ws/src/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/src/build/rrm_simple_robot_model

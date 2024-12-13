@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/matus/ros2_ws/build/cv1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cv1 -- -j12 -l12
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/cv1_node.dir/src/cv1_node.cpp.o[0m
+[0.082s] [01m[K/home/matus/ros2_ws/src/cv1/src/cv1_node.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ does not name a type
+[0.082s]     1 | [01;31m[Kinclude[m[K "rclcpp/rclcpp.hpp" // Zahrnutie hlavného ROS2 C++ API
+[0.082s]       | [01;31m[K^~~~~~~[m[K
+[0.083s] gmake[2]: *** [CMakeFiles/cv1_node.dir/build.make:76: CMakeFiles/cv1_node.dir/src/cv1_node.cpp.o] Error 1
+[0.084s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cv1_node.dir/all] Error 2
+[0.084s] gmake: *** [Makefile:146: all] Error 2
+[0.088s] Invoked command in '/home/matus/ros2_ws/build/cv1' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cv1 -- -j12 -l12

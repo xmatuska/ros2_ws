@@ -1,0 +1,58 @@
+[0.021s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/trajectory_visualization -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/trajectory_visualization
+[0.101s] -- The C compiler identification is GNU 13.2.0
+[0.205s] -- The CXX compiler identification is GNU 13.2.0
+[0.228s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.344s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.641s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.765s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.820s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.837s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.983s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.076s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.095s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.114s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.197s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.336s] -- Configuring done (1.3s)
+[1.347s] -- Generating done (0.0s)
+[1.348s] -- Build files have been written to: /home/matus/ros2_ws/build/trajectory_visualization
+[1.360s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/trajectory_visualization -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/trajectory_visualization
+[1.361s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12
+[1.415s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_visualization.dir/src/trajectory_visualization.cpp.o[0m
+[5.156s] [100%] [32m[1mLinking CXX executable trajectory_visualization[0m
+[5.281s] [100%] Built target trajectory_visualization
+[5.292s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/trajectory_visualization -- -j12 -l12
+[5.316s] Invoking command in '/home/matus/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/trajectory_visualization
+[5.323s] -- Install configuration: ""
+[5.323s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization
+[5.325s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization" to ""
+[5.325s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch
+[5.325s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.xml
+[5.325s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.py
+[5.325s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+[5.325s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+[5.326s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+[5.327s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+[5.327s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+[5.327s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+[5.327s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+[5.327s] -- Installing: /home/matus/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml
+[5.329s] Invoked command in '/home/matus/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/trajectory_visualization

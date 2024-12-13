@@ -1,0 +1,602 @@
+[0.000000] (-) TimerEvent: {}
+[0.000437] (rrm_msgs) JobQueued: {'identifier': 'rrm_msgs', 'dependencies': OrderedDict()}
+[0.000475] (rrm_simple_robot_model) JobQueued: {'identifier': 'rrm_simple_robot_model', 'dependencies': OrderedDict()}
+[0.000495] (block1_matuska) JobQueued: {'identifier': 'block1_matuska', 'dependencies': OrderedDict({'rrm_msgs': '/home/matus/ros2_ws/src/install/rrm_msgs'})}
+[0.000522] (rrm_sim) JobQueued: {'identifier': 'rrm_sim', 'dependencies': OrderedDict({'rrm_msgs': '/home/matus/ros2_ws/src/install/rrm_msgs'})}
+[0.000539] (rrm_msgs) JobStarted: {'identifier': 'rrm_msgs'}
+[0.006948] (rrm_simple_robot_model) JobStarted: {'identifier': 'rrm_simple_robot_model'}
+[0.011402] (rrm_msgs) JobProgress: {'identifier': 'rrm_msgs', 'progress': 'cmake'}
+[0.011588] (rrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/matus/ros2_ws/src/rrm/rrm_msgs', '-DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/rrm_msgs'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.015152] (rrm_simple_robot_model) JobProgress: {'identifier': 'rrm_simple_robot_model', 'progress': 'cmake'}
+[0.015471] (rrm_simple_robot_model) Command: {'cmd': ['/usr/bin/cmake', '/home/matus/ros2_ws/src/rrm/rrm_simple_robot_model', '-DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/rrm_simple_robot_model'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.078893] (rrm_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.079202] (rrm_simple_robot_model) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.099363] (-) TimerEvent: {}
+[0.144821] (rrm_simple_robot_model) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.145148] (rrm_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.164220] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.165543] (rrm_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199464] (-) TimerEvent: {}
+[0.269984] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.270231] (rrm_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.280013] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.280223] (rrm_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.280431] (rrm_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280604] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280795] (rrm_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.281067] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.291779] (rrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292602] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299535] (-) TimerEvent: {}
+[0.399803] (-) TimerEvent: {}
+[0.406471] (rrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.407908] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.414326] (rrm_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.414553] (rrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.414905] (rrm_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.415242] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.415494] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.415853] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.417553] (rrm_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.418191] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.499872] (-) TimerEvent: {}
+[0.535563] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.535790] (rrm_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.599971] (-) TimerEvent: {}
+[0.622277] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)\n'}
+[0.625287] (rrm_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.630200] (rrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.673120] (rrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.691742] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.694479] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.695243] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Build files have been written to: /home/matus/ros2_ws/src/build/rrm_simple_robot_model\n'}
+[0.699923] (rrm_simple_robot_model) CommandEnded: {'returncode': 0}
+[0.700170] (-) TimerEvent: {}
+[0.700370] (rrm_simple_robot_model) JobProgress: {'identifier': 'rrm_simple_robot_model', 'progress': 'build'}
+[0.700798] (rrm_simple_robot_model) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', '--', '-j12', '-l12'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.709389] (rrm_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.740573] (rrm_simple_robot_model) CommandEnded: {'returncode': 0}
+[0.760798] (rrm_simple_robot_model) JobProgress: {'identifier': 'rrm_simple_robot_model', 'progress': 'install'}
+[0.769565] (rrm_simple_robot_model) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matus/ros2_ws/src/build/rrm_simple_robot_model'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_simple_robot_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.778203] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.778443] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf\n'}
+[0.778652] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf/arm.urdf\n'}
+[0.778817] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config\n'}
+[0.778954] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config/rrm_cv3.rviz\n'}
+[0.779123] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch\n'}
+[0.779314] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.xml\n'}
+[0.779370] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.py\n'}
+[0.779420] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/package_run_dependencies/rrm_simple_robot_model\n'}
+[0.779478] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/parent_prefix_path/rrm_simple_robot_model\n'}
+[0.779562] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.sh\n'}
+[0.779647] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.dsv\n'}
+[0.779737] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.sh\n'}
+[0.779830] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.dsv\n'}
+[0.779956] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.bash\n'}
+[0.780082] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.sh\n'}
+[0.780204] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.zsh\n'}
+[0.780322] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.dsv\n'}
+[0.780446] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv\n'}
+[0.780606] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/ament_index/resource_index/packages/rrm_simple_robot_model\n'}
+[0.780768] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig.cmake\n'}
+[0.780871] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig-version.cmake\n'}
+[0.780985] (rrm_simple_robot_model) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.xml\n'}
+[0.782650] (rrm_simple_robot_model) CommandEnded: {'returncode': 0}
+[0.800255] (-) TimerEvent: {}
+[0.814691] (rrm_simple_robot_model) JobEnded: {'identifier': 'rrm_simple_robot_model', 'rc': 0}
+[0.900406] (-) TimerEvent: {}
+[1.000721] (-) TimerEvent: {}
+[1.101005] (-) TimerEvent: {}
+[1.196879] (rrm_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201106] (-) TimerEvent: {}
+[1.301369] (-) TimerEvent: {}
+[1.401693] (-) TimerEvent: {}
+[1.501993] (-) TimerEvent: {}
+[1.541214] (rrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602097] (-) TimerEvent: {}
+[1.702372] (-) TimerEvent: {}
+[1.802701] (-) TimerEvent: {}
+[1.902984] (-) TimerEvent: {}
+[1.996964] (rrm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.999556] (rrm_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.003047] (-) TimerEvent: {}
+[2.103265] (-) TimerEvent: {}
+[2.111552] (rrm_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.203392] (-) TimerEvent: {}
+[2.303711] (-) TimerEvent: {}
+[2.403999] (-) TimerEvent: {}
+[2.463310] (rrm_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.492268] (rrm_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.504106] (-) TimerEvent: {}
+[2.512465] (rrm_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.514010] (rrm_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.514979] (rrm_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.517471] (rrm_msgs) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.547680] (rrm_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.549915] (rrm_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/matus/ros2_ws/src/build/rrm_msgs\n'}
+[2.560883] (rrm_msgs) CommandEnded: {'returncode': 0}
+[2.561762] (rrm_msgs) JobProgress: {'identifier': 'rrm_msgs', 'progress': 'build'}
+[2.563058] (rrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matus/ros2_ws/src/build/rrm_msgs', '--', '-j12', '-l12'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.604209] (-) TimerEvent: {}
+[2.609302] (rrm_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.617570] (rrm_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_rrm_msgs\n'}
+[2.704336] (-) TimerEvent: {}
+[2.770922] (rrm_msgs) StdoutLine: {'line': b'[  2%] Built target rrm_msgs__rosidl_generator_type_description\n'}
+[2.780736] (rrm_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.791044] (rrm_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.795126] (rrm_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.795872] (rrm_msgs) StdoutLine: {'line': b'creating rrm_msgs.egg-info\n'}
+[2.804407] (-) TimerEvent: {}
+[2.812282] (rrm_msgs) StdoutLine: {'line': b'writing rrm_msgs.egg-info/PKG-INFO\n'}
+[2.812512] (rrm_msgs) StdoutLine: {'line': b'writing dependency_links to rrm_msgs.egg-info/dependency_links.txt\n'}
+[2.812704] (rrm_msgs) StdoutLine: {'line': b'writing top-level names to rrm_msgs.egg-info/top_level.txt\n'}
+[2.812870] (rrm_msgs) StdoutLine: {'line': b"writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'\n"}
+[2.862637] (rrm_msgs) StdoutLine: {'line': b"reading manifest file 'rrm_msgs.egg-info/SOURCES.txt'\n"}
+[2.863052] (rrm_msgs) StdoutLine: {'line': b"writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'\n"}
+[2.888569] (rrm_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_rrm_msgs_egg\n'}
+[2.904488] (-) TimerEvent: {}
+[3.005027] (-) TimerEvent: {}
+[3.037533] (rrm_msgs) StdoutLine: {'line': b'[  6%] Built target rrm_msgs__cpp\n'}
+[3.064795] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__functions.c.o\x1b[0m\n'}
+[3.065041] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__functions.c.o\x1b[0m\n'}
+[3.065120] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__description.c.o\x1b[0m\n'}
+[3.065189] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__type_support.c.o\x1b[0m\n'}
+[3.065255] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__description.c.o\x1b[0m\n'}
+[3.065322] (rrm_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[3.105160] (-) TimerEvent: {}
+[3.134865] (rrm_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librrm_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.173600] (rrm_msgs) StdoutLine: {'line': b'[ 22%] Built target rrm_msgs__rosidl_generator_c\n'}
+[3.184018] (rrm_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.184285] (rrm_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.184386] (rrm_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.184476] (rrm_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.184597] (rrm_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.185044] (rrm_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.205260] (-) TimerEvent: {}
+[3.305551] (-) TimerEvent: {}
+[3.405828] (-) TimerEvent: {}
+[3.411078] (rrm_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rrm_msgs/msg/command__type_support.cpp.o\x1b[0m\n'}
+[3.411552] (rrm_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rrm_msgs/srv/command__type_support.cpp.o\x1b[0m\n'}
+[3.423113] (rrm_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rrm_msgs/srv/command__type_support.cpp.o\x1b[0m\n'}
+[3.423366] (rrm_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rrm_msgs/msg/command__type_support.cpp.o\x1b[0m\n'}
+[3.456926] (rrm_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rrm_msgs/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[3.460724] (rrm_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rrm_msgs/srv/detail/command__type_support.c.o\x1b[0m\n'}
+[3.481575] (rrm_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rrm_msgs/msg/detail/command__type_support.cpp.o\x1b[0m\n'}
+[3.481889] (rrm_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rrm_msgs/srv/detail/command__type_support.cpp.o\x1b[0m\n'}
+[3.488173] (rrm_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.492043] (rrm_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rrm_msgs/msg/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[3.492305] (rrm_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rrm_msgs/srv/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[3.506609] (-) TimerEvent: {}
+[3.536169] (rrm_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library librrm_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.541654] (rrm_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rrm_msgs/srv/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[3.541924] (rrm_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rrm_msgs/msg/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[3.548124] (rrm_msgs) StdoutLine: {'line': b'[ 68%] Built target rrm_msgs__rosidl_typesupport_c\n'}
+[3.574041] (rrm_msgs) StdoutLine: {'line': b'[ 68%] Built target rrm_msgs__rosidl_typesupport_introspection_c\n'}
+[3.606738] (-) TimerEvent: {}
+[3.707225] (-) TimerEvent: {}
+[3.807566] (-) TimerEvent: {}
+[3.895629] (rrm_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.907723] (-) TimerEvent: {}
+[3.978909] (rrm_msgs) StdoutLine: {'line': b'[ 70%] Built target rrm_msgs__rosidl_typesupport_cpp\n'}
+[4.007839] (-) TimerEvent: {}
+[4.108179] (-) TimerEvent: {}
+[4.137957] (rrm_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.208297] (-) TimerEvent: {}
+[4.208839] (rrm_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.210965] (rrm_msgs) StdoutLine: {'line': b'[ 75%] Built target rrm_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.238123] (rrm_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.274622] (rrm_msgs) StdoutLine: {'line': b'[ 77%] Built target rrm_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.307969] (rrm_msgs) StdoutLine: {'line': b'[ 77%] Built target rrm_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.308360] (-) TimerEvent: {}
+[4.327621] (rrm_msgs) StdoutLine: {'line': b'[ 77%] Built target rrm_msgs\n'}
+[4.347339] (rrm_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.408495] (-) TimerEvent: {}
+[4.508816] (-) TimerEvent: {}
+[4.609122] (-) TimerEvent: {}
+[4.671246] (rrm_msgs) StdoutLine: {'line': b'[ 79%] Built target rrm_msgs__py\n'}
+[4.691943] (rrm_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rrm_msgs/msg/_command_s.c.o\x1b[0m\n'}
+[4.692182] (rrm_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rrm_msgs/srv/_command_s.c.o\x1b[0m\n'}
+[4.709222] (-) TimerEvent: {}
+[4.809496] (-) TimerEvent: {}
+[4.843790] (rrm_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library librrm_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.884712] (rrm_msgs) StdoutLine: {'line': b'[ 86%] Built target rrm_msgs__rosidl_generator_py\n'}
+[4.903323] (rrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.903570] (rrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.903694] (rrm_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.909606] (-) TimerEvent: {}
+[5.003684] (rrm_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.003912] (rrm_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.007243] (rrm_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.009685] (-) TimerEvent: {}
+[5.034927] (rrm_msgs) StdoutLine: {'line': b'[100%] Built target rrm_msgs_s__rosidl_typesupport_c\n'}
+[5.036077] (rrm_msgs) StdoutLine: {'line': b'[100%] Built target rrm_msgs_s__rosidl_typesupport_introspection_c\n'}
+[5.040511] (rrm_msgs) StdoutLine: {'line': b'[100%] Built target rrm_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[5.051524] (rrm_msgs) CommandEnded: {'returncode': 0}
+[5.109770] (-) TimerEvent: {}
+[5.140952] (rrm_msgs) JobProgress: {'identifier': 'rrm_msgs', 'progress': 'install'}
+[5.141333] (rrm_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matus/ros2_ws/src/build/rrm_msgs'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.149897] (rrm_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.150118] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/ament_index/resource_index/rosidl_interfaces/rrm_msgs\n'}
+[5.150279] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/msg/Command.json\n'}
+[5.150433] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/srv/Command.json\n'}
+[5.150560] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.150698] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.150873] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/command.h\n'}
+[5.150976] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.151113] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__functions.h\n'}
+[5.151206] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__functions.c\n'}
+[5.151338] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__description.c\n'}
+[5.151438] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__struct.h\n'}
+[5.151485] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.c\n'}
+[5.151546] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.h\n'}
+[5.151627] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.151809] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.151919] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/command.h\n'}
+[5.152025] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.152113] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__functions.h\n'}
+[5.152226] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__functions.c\n'}
+[5.152338] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__description.c\n'}
+[5.152447] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__struct.h\n'}
+[5.152555] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.c\n'}
+[5.152658] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.h\n'}
+[5.152833] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/library_path.sh\n'}
+[5.152965] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/library_path.dsv\n'}
+[5.153140] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_c.so\n'}
+[5.153512] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_c.so" to ""\n'}
+[5.153687] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.153874] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.153982] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.154123] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.154255] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.154469] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.154659] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.154832] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.154962] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.155012] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.155061] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.155109] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.155156] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.155205] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[5.155272] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.c\n'}
+[5.155321] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.155369] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.155444] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.155496] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[5.155566] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.c\n'}
+[5.155649] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.155770] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.155856] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_c.so\n'}
+[5.155985] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.156081] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.156242] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.156353] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/command.hpp\n'}
+[5.156410] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.156459] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__struct.hpp\n'}
+[5.156523] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__builder.hpp\n'}
+[5.156571] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__traits.hpp\n'}
+[5.156630] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.hpp\n'}
+[5.156737] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.156837] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/command.hpp\n'}
+[5.156902] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.156967] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__struct.hpp\n'}
+[5.157027] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__builder.hpp\n'}
+[5.157133] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__traits.hpp\n'}
+[5.157240] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.hpp\n'}
+[5.157347] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.157474] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.157530] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.157604] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.157655] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.157716] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/dds_fastrtps\n'}
+[5.157788] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.157865] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.157938] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.158013] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.158084] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/dds_fastrtps\n'}
+[5.158174] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.158596] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.158652] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs\n'}
+[5.158731] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv\n'}
+[5.158785] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail\n'}
+[5.158847] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.158909] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.cpp\n'}
+[5.159014] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg\n'}
+[5.159113] (rrm_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail\n'}
+[5.159165] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.159226] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.cpp\n'}
+[5.159338] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.159762] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.159834] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_cpp.so\n'}
+[5.160164] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.160283] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/pythonpath.sh\n'}
+[5.160367] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/pythonpath.dsv\n'}
+[5.160460] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info\n'}
+[5.160572] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.160694] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.160792] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.160897] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.161026] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs\n'}
+[5.161122] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.161232] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/__init__.py\n'}
+[5.161323] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.161445] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.161565] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv\n'}
+[5.161643] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/__init__.py\n'}
+[5.161757] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command_s.c\n'}
+[5.161880] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command.py\n'}
+[5.162004] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.162118] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg\n'}
+[5.162192] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/__init__.py\n'}
+[5.162297] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command_s.c\n'}
+[5.162398] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command.py\n'}
+[5.162504] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.162622] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so\n'}
+[5.195508] (rrm_msgs) StdoutLine: {'line': b"Listing '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs'...\n"}
+[5.195684] (rrm_msgs) StdoutLine: {'line': b"Compiling '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/__init__.py'...\n"}
+[5.195805] (rrm_msgs) StdoutLine: {'line': b"Listing '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg'...\n"}
+[5.195902] (rrm_msgs) StdoutLine: {'line': b"Compiling '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/__init__.py'...\n"}
+[5.195991] (rrm_msgs) StdoutLine: {'line': b"Compiling '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command.py'...\n"}
+[5.196076] (rrm_msgs) StdoutLine: {'line': b"Listing '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv'...\n"}
+[5.196159] (rrm_msgs) StdoutLine: {'line': b"Compiling '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/__init__.py'...\n"}
+[5.196253] (rrm_msgs) StdoutLine: {'line': b"Compiling '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command.py'...\n"}
+[5.200491] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.200826] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.201007] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.201296] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.201465] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so\n'}
+[5.201709] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[5.201787] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_py.so\n'}
+[5.202124] (rrm_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_py.so" to ""\n'}
+[5.202191] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/msg/Command.idl\n'}
+[5.202296] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/srv/Command.idl\n'}
+[5.202434] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/msg/Command.msg\n'}
+[5.202561] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/srv/Command.srv\n'}
+[5.202756] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/ament_index/resource_index/package_run_dependencies/rrm_msgs\n'}
+[5.202898] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/ament_index/resource_index/parent_prefix_path/rrm_msgs\n'}
+[5.203003] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/ament_prefix_path.sh\n'}
+[5.203125] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/ament_prefix_path.dsv\n'}
+[5.203246] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/path.sh\n'}
+[5.203366] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/environment/path.dsv\n'}
+[5.203489] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/local_setup.bash\n'}
+[5.203611] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/local_setup.sh\n'}
+[5.203739] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/local_setup.zsh\n'}
+[5.203857] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/local_setup.dsv\n'}
+[5.203974] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/package.dsv\n'}
+[5.204132] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/ament_index/resource_index/packages/rrm_msgs\n'}
+[5.204301] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cExport.cmake\n'}
+[5.204438] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.204573] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.204704] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.204845] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.204974] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.205104] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.205231] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.205371] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.205510] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.205640] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.205787] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.205917] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.206050] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.206187] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.206323] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.206447] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.206570] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.206695] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.206822] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.206943] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.207066] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.207192] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.207312] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.207433] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgsConfig.cmake\n'}
+[5.207537] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgsConfig-version.cmake\n'}
+[5.207668] (rrm_msgs) StdoutLine: {'line': b'-- Installing: /home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/package.xml\n'}
+[5.209849] (-) TimerEvent: {}
+[5.210127] (rrm_msgs) CommandEnded: {'returncode': 0}
+[5.309934] (-) TimerEvent: {}
+[5.319500] (rrm_msgs) JobEnded: {'identifier': 'rrm_msgs', 'rc': 0}
+[5.320009] (block1_matuska) JobStarted: {'identifier': 'block1_matuska'}
+[5.322610] (rrm_sim) JobStarted: {'identifier': 'rrm_sim'}
+[5.326455] (block1_matuska) JobProgress: {'identifier': 'block1_matuska', 'progress': 'cmake'}
+[5.326703] (block1_matuska) Command: {'cmd': ['/usr/bin/cmake', '/home/matus/ros2_ws/src/block1_matuska', '-DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/block1_matuska'], 'cwd': '/home/matus/ros2_ws/src/build/block1_matuska', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib:/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/block1_matuska', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages:/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.327950] (rrm_sim) JobProgress: {'identifier': 'rrm_sim', 'progress': 'cmake'}
+[5.328164] (rrm_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/matus/ros2_ws/src/rrm/rrm_sim', '-DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/src/install/rrm_sim'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_sim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib:/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages:/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.375630] (rrm_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[5.375922] (block1_matuska) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[5.410085] (-) TimerEvent: {}
+[5.424991] (block1_matuska) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[5.425265] (rrm_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[5.440156] (rrm_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.441873] (block1_matuska) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.510186] (-) TimerEvent: {}
+[5.521614] (block1_matuska) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.521928] (rrm_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.528597] (rrm_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.528800] (block1_matuska) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.528982] (rrm_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.529091] (block1_matuska) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.529228] (rrm_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.529345] (block1_matuska) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.538728] (block1_matuska) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.538853] (rrm_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.610281] (-) TimerEvent: {}
+[5.628219] (rrm_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.628493] (block1_matuska) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.635306] (rrm_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.635537] (rrm_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.635707] (block1_matuska) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.635920] (rrm_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.636022] (block1_matuska) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.636357] (block1_matuska) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.638416] (rrm_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.638789] (block1_matuska) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.710380] (-) TimerEvent: {}
+[5.760481] (rrm_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.761118] (block1_matuska) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.810467] (-) TimerEvent: {}
+[5.849032] (block1_matuska) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.849479] (rrm_sim) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.883865] (block1_matuska) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.884153] (rrm_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.895273] (block1_matuska) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.895626] (rrm_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.908753] (block1_matuska) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.909189] (rrm_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.910525] (-) TimerEvent: {}
+[5.924056] (block1_matuska) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.924818] (rrm_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.990500] (block1_matuska) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.991128] (rrm_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.993125] (block1_matuska) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.993746] (rrm_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.010634] (-) TimerEvent: {}
+[6.071343] (rrm_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.072638] (block1_matuska) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.093547] (rrm_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.094094] (block1_matuska) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.110735] (-) TimerEvent: {}
+[6.122811] (rrm_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.123348] (block1_matuska) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.186342] (block1_matuska) StdoutLine: {'line': b'-- Found rrm_msgs: 0.0.0 (/home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake)\n'}
+[6.187005] (rrm_sim) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[6.199281] (rrm_sim) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[6.200492] (block1_matuska) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.210826] (-) TimerEvent: {}
+[6.234164] (rrm_sim) StdoutLine: {'line': b'-- Found rrm_msgs: 0.0.0 (/home/matus/ros2_ws/src/install/rrm_msgs/share/rrm_msgs/cmake)\n'}
+[6.250075] (rrm_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.286952] (block1_matuska) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.287218] (block1_matuska) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matus/ros2_ws/src/block1_matuska/include>\n'}
+[6.287326] (block1_matuska) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.287738] (block1_matuska) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.288612] (block1_matuska) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.288680] (block1_matuska) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.289111] (block1_matuska) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.290330] (block1_matuska) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[6.299426] (block1_matuska) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.300651] (block1_matuska) StdoutLine: {'line': b'-- Build files have been written to: /home/matus/ros2_ws/src/build/block1_matuska\n'}
+[6.309939] (block1_matuska) CommandEnded: {'returncode': 0}
+[6.310507] (block1_matuska) JobProgress: {'identifier': 'block1_matuska', 'progress': 'build'}
+[6.310856] (block1_matuska) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matus/ros2_ws/src/build/block1_matuska', '--', '-j12', '-l12'], 'cwd': '/home/matus/ros2_ws/src/build/block1_matuska', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib:/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/block1_matuska', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages:/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.311127] (-) TimerEvent: {}
+[6.342992] (rrm_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.344111] (rrm_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.344258] (rrm_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matus/ros2_ws/src/rrm/rrm_sim/include>\n'}
+[6.344314] (rrm_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.345259] (rrm_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.345353] (rrm_sim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.345993] (rrm_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.347043] (rrm_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.347125] (rrm_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.347540] (rrm_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.348755] (rrm_sim) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[6.359642] (rrm_sim) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.360937] (rrm_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/matus/ros2_ws/src/build/rrm_sim\n'}
+[6.362086] (block1_matuska) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[6.370185] (rrm_sim) CommandEnded: {'returncode': 0}
+[6.371000] (rrm_sim) JobProgress: {'identifier': 'rrm_sim', 'progress': 'build'}
+[6.371369] (rrm_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matus/ros2_ws/src/build/rrm_sim', '--', '-j12', '-l12'], 'cwd': '/home/matus/ros2_ws/src/build/rrm_sim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matus', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib:/home/matus/ros2_ws/install/rrm_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matus', 'OLDPWD': '/home/matus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/matus/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/matus-pc:@/tmp/.ICE-unix/2392,unix/matus-pc:/tmp/.ICE-unix/2392', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d5a75a1_d6ff_41e1_927c_37f2e39e1532', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RHLU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matus/ros2_ws/src/build/rrm_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matus/ros2_ws/src/install/rrm_msgs/lib/python3.12/site-packages:/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.411258] (-) TimerEvent: {}
+[6.420777] (rrm_sim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_sim_node.dir/src/robot_sim_node.cpp.o\x1b[0m\n'}
+[6.421032] (rrm_sim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_sim_node.dir/src/motion.cpp.o\x1b[0m\n'}
+[6.511361] (-) TimerEvent: {}
+[6.611681] (-) TimerEvent: {}
+[6.711997] (-) TimerEvent: {}
+[6.812336] (-) TimerEvent: {}
+[6.912682] (-) TimerEvent: {}
+[7.013084] (-) TimerEvent: {}
+[7.113418] (-) TimerEvent: {}
+[7.213764] (-) TimerEvent: {}
+[7.314072] (-) TimerEvent: {}
+[7.414379] (-) TimerEvent: {}
+[7.514694] (-) TimerEvent: {}
+[7.615000] (-) TimerEvent: {}
+[7.715339] (-) TimerEvent: {}
+[7.815726] (-) TimerEvent: {}
+[7.916055] (-) TimerEvent: {}
+[8.016365] (-) TimerEvent: {}
+[8.116702] (-) TimerEvent: {}
+[8.217011] (-) TimerEvent: {}
+[8.317362] (-) TimerEvent: {}
+[8.417728] (-) TimerEvent: {}
+[8.518081] (-) TimerEvent: {}
+[8.551572] (block1_matuska) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.551888] (block1_matuska) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:23:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.552023] (block1_matuska) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[8.552136] (block1_matuska) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.552242] (block1_matuska) StderrLine: {'line': b'      | \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[8.555105] (block1_matuska) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:23:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.555239] (block1_matuska) StderrLine: {'line': b'   23 | publisher_->publish(\x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K);\n'}
+[8.555310] (block1_matuska) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.618192] (-) TimerEvent: {}
+[8.718522] (-) TimerEvent: {}
+[8.818867] (-) TimerEvent: {}
+[8.919204] (-) TimerEvent: {}
+[9.019540] (-) TimerEvent: {}
+[9.119896] (-) TimerEvent: {}
+[9.220239] (-) TimerEvent: {}
+[9.320578] (-) TimerEvent: {}
+[9.420918] (-) TimerEvent: {}
+[9.521251] (-) TimerEvent: {}
+[9.523851] (block1_matuska) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1\n'}
+[9.524131] (block1_matuska) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/teleop_node.dir/all] Error 2\n'}
+[9.524381] (block1_matuska) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.526785] (block1_matuska) CommandEnded: {'returncode': 2}
+[9.554704] (block1_matuska) JobEnded: {'identifier': 'block1_matuska', 'rc': 2}
+[9.621364] (-) TimerEvent: {}
+[9.721700] (-) TimerEvent: {}
+[9.822048] (-) TimerEvent: {}
+[9.922416] (-) TimerEvent: {}
+[10.022818] (-) TimerEvent: {}
+[10.123159] (-) TimerEvent: {}
+[10.223502] (-) TimerEvent: {}
+[10.323848] (-) TimerEvent: {}
+[10.424187] (-) TimerEvent: {}
+[10.524525] (-) TimerEvent: {}
+[10.624873] (-) TimerEvent: {}
+[10.725203] (-) TimerEvent: {}
+[10.825543] (-) TimerEvent: {}
+[10.925882] (-) TimerEvent: {}
+[11.026187] (-) TimerEvent: {}
+[11.126506] (-) TimerEvent: {}
+[11.227082] (-) TimerEvent: {}
+[11.327716] (-) TimerEvent: {}
+[11.428112] (-) TimerEvent: {}
+[11.528463] (-) TimerEvent: {}
+[11.628826] (-) TimerEvent: {}
+[11.729125] (-) TimerEvent: {}
+[11.829438] (-) TimerEvent: {}
+[11.929767] (-) TimerEvent: {}
+[12.030105] (-) TimerEvent: {}
+[12.130449] (-) TimerEvent: {}
+[12.230844] (-) TimerEvent: {}
+[12.331169] (-) TimerEvent: {}
+[12.431504] (-) TimerEvent: {}
+[12.531832] (-) TimerEvent: {}
+[12.632157] (-) TimerEvent: {}
+[12.732488] (-) TimerEvent: {}
+[12.833170] (-) TimerEvent: {}
+[12.933518] (-) TimerEvent: {}
+[13.033913] (-) TimerEvent: {}
+[13.134243] (-) TimerEvent: {}
+[13.234537] (-) TimerEvent: {}
+[13.334889] (-) TimerEvent: {}
+[13.435183] (-) TimerEvent: {}
+[13.535516] (-) TimerEvent: {}
+[13.635864] (-) TimerEvent: {}
+[13.736178] (-) TimerEvent: {}
+[13.836520] (-) TimerEvent: {}
+[13.936878] (-) TimerEvent: {}
+[14.037217] (-) TimerEvent: {}
+[14.137544] (-) TimerEvent: {}
+[14.237884] (-) TimerEvent: {}
+[14.338235] (-) TimerEvent: {}
+[14.438596] (-) TimerEvent: {}
+[14.538975] (-) TimerEvent: {}
+[14.639327] (-) TimerEvent: {}
+[14.739701] (-) TimerEvent: {}
+[14.741579] (rrm_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_sim_node\x1b[0m\n'}
+[14.839794] (-) TimerEvent: {}
+[14.940120] (-) TimerEvent: {}
+[15.034550] (rrm_sim) StdoutLine: {'line': b'[100%] Built target robot_sim_node\n'}
+[15.040188] (-) TimerEvent: {}
+[15.045202] (rrm_sim) JobEnded: {'identifier': 'rrm_sim', 'rc': 'SIGINT'}
+[15.046564] (-) EventReactorShutdown: {}

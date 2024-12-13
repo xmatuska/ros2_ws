@@ -1,0 +1,43 @@
+[0.034s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[0.187s] [ 50%] [32mBuilding CXX object CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o[0m
+[6.386s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.386s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:62:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.386s]    62 |     double [01;35m[Kt0[m[K = 0;
+[6.386s]       |            [01;35m[K^~[m[K
+[6.386s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.386s]    63 |     double [01;35m[Ktf[m[K = 4;
+[6.386s]       |            [01;35m[K^~[m[K
+[6.386s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:82:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.386s]    82 |     double [01;35m[Kperiod[m[K = 1/static_cast<double>(frequency);  // s
+[6.386s]       |            [01;35m[K^~~~~~[m[K
+[6.387s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:84:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfactor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.387s]    84 |     double [01;35m[Kfactor[m[K = 0.5; // rad/s
+[6.387s]       |            [01;35m[K^~~~~~[m[K
+[6.387s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:85:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.387s]    85 |     double [01;35m[Ktime[m[K = 0.0;
+[6.387s]       |            [01;35m[K^~~~[m[K
+[10.417s] [100%] [32m[1mLinking CXX executable zadanie2_node[0m
+[10.585s] [100%] Built target zadanie2_node
+[10.597s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[10.626s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block2_matuska
+[10.633s] -- Install configuration: ""
+[10.633s] -- Installing: /home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node
+[10.636s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node" to ""
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch/zadanie2_launch.xml
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/package_run_dependencies/block2_matuska
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/parent_prefix_path/block2_matuska
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.sh
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.dsv
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.sh
+[10.636s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.dsv
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.bash
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.sh
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.zsh
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.dsv
+[10.637s] -- Installing: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.dsv
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/packages/block2_matuska
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig.cmake
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig-version.cmake
+[10.637s] -- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.xml
+[10.638s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block2_matuska

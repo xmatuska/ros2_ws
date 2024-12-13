@@ -1,0 +1,53 @@
+[0.011s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[0.065s] [ 50%] Built target zadanie2_node
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[2.465s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.465s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:181:41:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’} to non-scalar type ‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>[m[K’} requested
+[2.466s]   181 |     Eigen::VectorXd qt1_j0 = best_klb0[0[01;31m[K][m[K, 0, 0, best_klb1[0], 0, 0;
+[2.466s]       |                                         [01;31m[K^[m[K
+[2.466s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:181:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[2.466s]   181 |     Eigen::VectorXd qt1_j0 = best_klb0[0], [01;31m[K0[m[K, 0, best_klb1[0], 0, 0;
+[2.466s]       |                                            [01;31m[K^[m[K
+[2.479s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:184:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+[2.479s]   184 |     Eigen::VectorXd qt1_j1 [01;31m[K<<[m[K best_klb0[1], 0, 0, best_klb1[1], 0, 0;
+[2.479s]       |                            [01;31m[K^~[m[K
+[2.483s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:185:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j1[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+[2.483s]   185 |     Eigen::VectorXd a1_j1 = matica1.inverse() * [01;31m[Kqt1_j1[m[K;
+[2.483s]       |                                                 [01;31m[K^~~~~~[m[K
+[2.483s]       |                                                 [32m[Kqt1_j0[m[K
+[2.483s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:187:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+[2.484s]   187 |     Eigen::VectorXd qt1_j2 [01;31m[K<<[m[K best_klb0[2], 0, 0, best_klb1[2], 0, 0;
+[2.484s]       |                            [01;31m[K^~[m[K
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:188:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j2[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+[2.487s]   188 |     Eigen::VectorXd a1_j2 = matica1.inverse() * [01;31m[Kqt1_j2[m[K;
+[2.487s]       |                                                 [01;31m[K^~~~~~[m[K
+[2.487s]       |                                                 [32m[Kqt1_j0[m[K
+[2.487s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+[2.487s]   190 |     Eigen::VectorXd qt1_j3 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+[2.487s]       |                            [01;31m[K^~[m[K
+[2.490s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:191:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j3[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+[2.490s]   191 |     Eigen::VectorXd a1_j3 = matica1.inverse() * [01;31m[Kqt1_j3[m[K;
+[2.490s]       |                                                 [01;31m[K^~~~~~[m[K
+[2.490s]       |                                                 [32m[Kqt1_j0[m[K
+[2.490s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:193:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+[2.490s]   193 |     Eigen::VectorXd qt1_j4 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+[2.490s]       |                            [01;31m[K^~[m[K
+[2.492s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j4[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+[2.492s]   194 |     Eigen::VectorXd a1_j4 = matica1.inverse() * [01;31m[Kqt1_j4[m[K;
+[2.492s]       |                                                 [01;31m[K^~~~~~[m[K
+[2.492s]       |                                                 [32m[Kqt1_j0[m[K
+[2.492s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:196:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+[2.493s]   196 |     Eigen::VectorXd qt1_j5 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+[2.493s]       |                            [01;31m[K^~[m[K
+[2.495s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:197:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j5[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+[2.495s]   197 |     Eigen::VectorXd a1_j5 = matica1.inverse() * [01;31m[Kqt1_j5[m[K;
+[2.495s]       |                                                 [01;31m[K^~~~~~[m[K
+[2.495s]       |                                                 [32m[Kqt1_j0[m[K
+[2.498s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:210:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+[2.498s]   210 |                 [01;31m[Kjoint_state_[m[K.position[0] = hodnoty(t, a1_j0)[0];
+[2.498s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[2.498s]       |                 [32m[Kjoint_state[m[K
+[4.909s] gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+[4.909s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+[4.909s] gmake: *** [Makefile:146: all] Error 2
+[4.912s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12

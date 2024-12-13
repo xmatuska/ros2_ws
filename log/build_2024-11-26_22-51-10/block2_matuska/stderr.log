@@ -1,0 +1,23 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[01;32m[K calculateIK[m[K(const Eigen::Vector3d&, const Eigen::Vector3d&)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:53:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::push_back(const std::array<double, 6>&)[m[K’
+   53 |         [01;31m[Kjoint_solutions.push_back(solution)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1281:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(const value_type&) [35m[K[with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; value_type = std::vector<double, std::allocator<double> >][m[K[m[K’
+ 1281 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1281:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<double, 6>[m[K’ to ‘[01m[Kconst std::vector<std::vector<double, std::allocator<double> > >::value_type&[m[K’ {aka ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’}
+ 1281 |       push_back([01;36m[Kconst value_type& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1298:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(value_type&&) [35m[K[with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; value_type = std::vector<double, std::allocator<double> >][m[K[m[K’
+ 1298 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1298:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<double, 6>[m[K’ to ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::value_type&&[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’}
+ 1298 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

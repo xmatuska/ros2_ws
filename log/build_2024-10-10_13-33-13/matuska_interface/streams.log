@@ -1,0 +1,221 @@
+[0.017s] Invoking command in '/home/matus/ros2_ws/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/matuska_interface -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/matuska_interface
+[0.032s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.293s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.927s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.770s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.875s] -- Found PythonExtra: /usr/bin/python3  
+[2.209s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.251s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.273s] -- Added test 'lint_cmake' to check CMake code style
+[2.274s] -- Added test 'xmllint' to check XML markup files
+[2.277s] -- Configuring done (2.2s)
+[2.305s] -- Generating done (0.0s)
+[2.307s] -- Build files have been written to: /home/matus/ros2_ws/build/matuska_interface
+[2.313s] Invoked command in '/home/matus/ros2_ws/build/matuska_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/matuska_interface -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/matuska_interface
+[2.314s] Invoking command in '/home/matus/ros2_ws/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/matuska_interface -- -j12 -l12
+[2.360s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.368s] [  2%] Built target ament_cmake_python_copy_matuska_interface
+[2.499s] [  2%] Built target matuska_interface__rosidl_generator_type_description
+[2.509s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.519s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.539s] running egg_info
+[2.540s] creating matuska_interface.egg-info
+[2.556s] writing matuska_interface.egg-info/PKG-INFO
+[2.556s] writing dependency_links to matuska_interface.egg-info/dependency_links.txt
+[2.556s] writing top-level names to matuska_interface.egg-info/top_level.txt
+[2.556s] writing manifest file 'matuska_interface.egg-info/SOURCES.txt'
+[2.604s] reading manifest file 'matuska_interface.egg-info/SOURCES.txt'
+[2.605s] writing manifest file 'matuska_interface.egg-info/SOURCES.txt'
+[2.631s] [  8%] Built target ament_cmake_python_build_matuska_interface_egg
+[2.726s] [  8%] Built target matuska_interface__cpp
+[2.737s] [ 17%] [32mBuilding C object CMakeFiles/matuska_interface__rosidl_generator_c.dir/rosidl_generator_c/matuska_interface/srv/detail/teach_position__functions.c.o[0m
+[2.737s] [ 17%] [32mBuilding C object CMakeFiles/matuska_interface__rosidl_generator_c.dir/rosidl_generator_c/matuska_interface/srv/detail/teach_position__type_support.c.o[0m
+[2.738s] [ 17%] [32mBuilding C object CMakeFiles/matuska_interface__rosidl_generator_c.dir/rosidl_generator_c/matuska_interface/srv/detail/teach_position__description.c.o[0m
+[2.802s] [ 20%] [32m[1mLinking C shared library libmatuska_interface__rosidl_generator_c.so[0m
+[2.838s] [ 20%] Built target matuska_interface__rosidl_generator_c
+[2.848s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.848s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.848s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.848s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.848s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.851s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.032s] [ 44%] [32mBuilding CXX object CMakeFiles/matuska_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/matuska_interface/srv/teach_position__type_support.cpp.o[0m
+[3.033s] [ 44%] [32mBuilding CXX object CMakeFiles/matuska_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/matuska_interface/srv/teach_position__type_support.cpp.o[0m
+[3.054s] [ 47%] [32mBuilding CXX object CMakeFiles/matuska_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/matuska_interface/srv/detail/teach_position__type_support.cpp.o[0m
+[3.077s] [ 50%] [32mBuilding C object CMakeFiles/matuska_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/matuska_interface/srv/detail/teach_position__type_support.c.o[0m
+[3.078s] [ 52%] [32m[1mLinking CXX shared library libmatuska_interface__rosidl_typesupport_c.so[0m
+[3.086s] [ 55%] [32mBuilding CXX object CMakeFiles/matuska_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/matuska_interface/srv/detail/dds_fastrtps/teach_position__type_support.cpp.o[0m
+[3.116s] [ 58%] [32mBuilding CXX object CMakeFiles/matuska_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/matuska_interface/srv/detail/teach_position__type_support_c.cpp.o[0m
+[3.116s] [ 58%] Built target matuska_interface__rosidl_typesupport_c
+[3.123s] [ 61%] [32m[1mLinking C shared library libmatuska_interface__rosidl_typesupport_introspection_c.so[0m
+[3.154s] [ 61%] Built target matuska_interface__rosidl_typesupport_introspection_c
+[3.406s] [ 64%] [32m[1mLinking CXX shared library libmatuska_interface__rosidl_typesupport_cpp.so[0m
+[3.446s] [ 67%] [32m[1mLinking CXX shared library libmatuska_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.471s] [ 67%] Built target matuska_interface__rosidl_typesupport_cpp
+[3.514s] [ 67%] Built target matuska_interface__rosidl_typesupport_introspection_cpp
+[3.587s] [ 70%] [32m[1mLinking CXX shared library libmatuska_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.649s] [ 70%] Built target matuska_interface__rosidl_typesupport_fastrtps_c
+[3.652s] [ 73%] [32m[1mLinking CXX shared library libmatuska_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.713s] [ 73%] Built target matuska_interface__rosidl_typesupport_fastrtps_cpp
+[3.731s] [ 73%] Built target matuska_interface
+[3.750s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.997s] [ 76%] Built target matuska_interface__py
+[4.018s] [ 79%] [32mBuilding C object CMakeFiles/matuska_interface__rosidl_generator_py.dir/rosidl_generator_py/matuska_interface/srv/_teach_position_s.c.o[0m
+[4.159s] [ 82%] [32m[1mLinking C shared library libmatuska_interface__rosidl_generator_py.so[0m
+[4.200s] [ 82%] Built target matuska_interface__rosidl_generator_py
+[4.218s] [ 91%] [32mBuilding C object CMakeFiles/matuska_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.218s] [ 91%] [32mBuilding C object CMakeFiles/matuska_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.219s] [ 91%] [32mBuilding C object CMakeFiles/matuska_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.312s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/matuska_interface/matuska_interface_s__rosidl_typesupport_introspection_c.so[0m
+[4.312s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/matuska_interface/matuska_interface_s__rosidl_typesupport_c.so[0m
+[4.314s] [100%] [32m[1mLinking C shared module rosidl_generator_py/matuska_interface/matuska_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.340s] [100%] Built target matuska_interface_s__rosidl_typesupport_c
+[4.340s] [100%] Built target matuska_interface_s__rosidl_typesupport_introspection_c
+[4.341s] [100%] Built target matuska_interface_s__rosidl_typesupport_fastrtps_c
+[4.353s] Invoked command in '/home/matus/ros2_ws/build/matuska_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/matuska_interface -- -j12 -l12
+[4.430s] Invoking command in '/home/matus/ros2_ws/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/matuska_interface
+[4.438s] -- Install configuration: ""
+[4.438s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/ament_index/resource_index/rosidl_interfaces/matuska_interface
+[4.438s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/srv/TeachPosition.json
+[4.438s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/teach_position.h
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__description.c
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__functions.c
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__type_support.h
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__functions.h
+[4.439s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__struct.h
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__type_support.c
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg/rosidl_generator_c__visibility_control.h
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/library_path.sh
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/library_path.dsv
+[4.440s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_generator_c.so
+[4.440s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_generator_c.so" to ""
+[4.440s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.441s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__rosidl_typesupport_fastrtps_c.h
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg
+[4.441s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.441s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_fastrtps_c.so
+[4.441s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.441s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__rosidl_typesupport_introspection_c.h
+[4.441s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__type_support.c
+[4.442s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg
+[4.442s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.442s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_introspection_c.so
+[4.442s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.442s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_c.so
+[4.442s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_c.so" to ""
+[4.442s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.442s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.442s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.442s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__builder.hpp
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__struct.hpp
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__traits.hpp
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__type_support.hpp
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/teach_position.hpp
+[4.443s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.443s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.443s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.443s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.443s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/dds_fastrtps
+[4.443s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg
+[4.444s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.444s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.444s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.444s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface
+[4.444s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv
+[4.444s] -- Up-to-date: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail
+[4.444s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__type_support.cpp
+[4.444s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/include/matuska_interface/matuska_interface/srv/detail/teach_position__rosidl_typesupport_introspection_cpp.hpp
+[4.445s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_introspection_cpp.so
+[4.445s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.445s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_cpp.so
+[4.445s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_typesupport_cpp.so" to ""
+[4.445s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/pythonpath.sh
+[4.445s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/pythonpath.dsv
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface-0.0.0-py3.12.egg-info
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface-0.0.0-py3.12.egg-info/top_level.txt
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/__init__.py
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.446s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_c.so
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_c.c
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv/__init__.py
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv/_teach_position_s.c
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv/_teach_position.py
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/_matuska_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_introspection_c.so
+[4.447s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_fastrtps_c.so
+[4.478s] Listing '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface'...
+[4.478s] Compiling '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/__init__.py'...
+[4.478s] Listing '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv'...
+[4.478s] Compiling '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv/__init__.py'...
+[4.478s] Compiling '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/srv/_teach_position.py'...
+[4.482s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_fastrtps_c.so
+[4.483s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.483s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_introspection_c.so
+[4.483s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[4.483s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_c.so
+[4.484s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages/matuska_interface/matuska_interface_s__rosidl_typesupport_c.so" to ""
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_generator_py.so
+[4.484s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/matuska_interface/lib/libmatuska_interface__rosidl_generator_py.so" to ""
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/srv/TeachPosition.idl
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/srv/TeachPosition.srv
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/ament_index/resource_index/package_run_dependencies/matuska_interface
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/ament_index/resource_index/parent_prefix_path/matuska_interface
+[4.484s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/ament_prefix_path.sh
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/ament_prefix_path.dsv
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/path.sh
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/environment/path.dsv
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/local_setup.bash
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/local_setup.sh
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/local_setup.zsh
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/local_setup.dsv
+[4.485s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.dsv
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/ament_index/resource_index/packages/matuska_interface
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_generator_cExport.cmake
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_generator_cExport-noconfig.cmake
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.486s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_cExport.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_generator_cppExport.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.487s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_cppExport.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_generator_pyExport.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/export_matuska_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/rosidl_cmake-extras.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.488s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.489s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.489s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.489s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interfaceConfig.cmake
+[4.489s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/cmake/matuska_interfaceConfig-version.cmake
+[4.489s] -- Installing: /home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.xml
+[4.491s] Invoked command in '/home/matus/ros2_ws/build/matuska_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/matuska_interface

@@ -1,0 +1,12 @@
+[ 50%] Built target zadanie2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:123:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto node[m[K’
+  123 |     auto [01;31m[Knode[m[K = rclcpp::Node::make_shared("ik_solver_example");
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’
+   35 |     auto [01;36m[Knode[m[K = rclcpp::Node::make_shared("trajectory_visualization");
+      |          [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/matus/ros2_ws/build/block2_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12
+[0.081s] [ 50%] Built target zadanie2_node
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[2.794s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.794s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:335:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile1[m[K’ has initializer but incomplete type
+[2.794s]   335 |     std::ofstream csvFile1[01;31m[K([m[K"y_params.csv");
+[2.795s]       |                           [01;31m[K^[m[K
+[2.795s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:336:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile2[m[K’ has initializer but incomplete type
+[2.795s]   336 |     std::ofstream csvFile2[01;31m[K([m[K"z_params.csv");
+[2.795s]       |                           [01;31m[K^[m[K
+[2.795s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:337:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile3[m[K’ has initializer but incomplete type
+[2.795s]   337 |     std::ofstream csvFile3[01;31m[K([m[K"z_params.csv");
+[2.795s]       |                           [01;31m[K^[m[K
+[2.800s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:415:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_file_[m[K’ was not declared in this scope
+[2.800s]   415 |                 [01;31m[Kcsv_file_[m[K << t << ","
+[2.800s]       |                 [01;31m[K^~~~~~~~~[m[K
+[2.803s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:416:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+[2.803s]   416 |                           << [01;31m[Kjoint_state_[m[K.position[0] << "," << joint_state_.velocity[0] << "," << joint_state_.effort[0] << "," << jerk_1 << ","
+[2.804s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[2.804s]       |                              [32m[Kjoint_state[m[K
+[2.807s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:416:133:[m[K [01;31m[Kerror: [m[K‘[01m[Kjerk_1[m[K’ was not declared in this scope
+[2.807s]   416 |                           << joint_state_.position[0] << "," << joint_state_.velocity[0] << "," << joint_state_.effort[0] << "," << [01;31m[Kjerk_1[m[K << ","
+[2.807s]       |                                                                                                                                     [01;31m[K^~~~~~[m[K
+[2.811s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_2[m[K’ was not declared in this scope
+[2.811s]   417 |                           << [01;31m[Kposition_2[m[K << "," << velocity_2 << "," << acceleration_2 << "," << jerk_2 <<  "\n";
+[2.811s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[2.815s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_2[m[K’ was not declared in this scope
+[2.816s]   417 |                           << position_2 << "," << [01;31m[Kvelocity_2[m[K << "," << acceleration_2 << "," << jerk_2 <<  "\n";
+[2.816s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[2.819s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kacceleration_2[m[K’ was not declared in this scope
+[2.819s]   417 |                           << position_2 << "," << velocity_2 << "," << [01;31m[Kacceleration_2[m[K << "," << jerk_2 <<  "\n";
+[2.819s]       |                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.822s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kjerk_2[m[K’ was not declared in this scope
+[2.822s]   417 |                           << position_2 << "," << velocity_2 << "," << acceleration_2 << "," << [01;31m[Kjerk_2[m[K <<  "\n";
+[2.822s]       |                                                                                                 [01;31m[K^~~~~~[m[K
+[2.828s] [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:428:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcsvFile[m[K’ was not declared in this scope
+[2.828s]   428 |     [01;31m[KcsvFile[m[K.close();
+[2.828s]       |     [01;31m[K^~~~~~~[m[K
+[5.274s] gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+[5.274s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+[5.274s] gmake: *** [Makefile:146: all] Error 2
+[5.277s] Invoked command in '/home/matus/ros2_ws/build/block2_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/trajectory_visualization:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block2_matuska:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/ik_solver_example:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/install/abb_model:/home/matus/ros2_ws/install/abb_irb4600_ikfast:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block2_matuska -- -j12 -l12

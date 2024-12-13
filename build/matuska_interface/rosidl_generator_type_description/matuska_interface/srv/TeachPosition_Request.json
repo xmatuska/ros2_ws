@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "matuska_interface/srv/TeachPosition_Request",
+      "fields": [
+        {
+          "name": "velocity",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "matuska_interface/srv/TeachPosition_Request",
+      "hash_string": "RIHS01_fc1d2cabd9f80a58e992eabac3fde03149ae2f4972f3676398d2838bf4ab1830"
+    }
+  ]
+}

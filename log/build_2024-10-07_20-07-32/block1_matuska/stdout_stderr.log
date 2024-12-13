@@ -1,0 +1,15 @@
+[ 50%] Built target logger_node
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclcpp[m[K’ has not been declared
+   95 |         [01;31m[Kclcpp[m[K::init(argc, argv);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:95:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   95 |         clcpp::init([01;31m[Kargc[m[K, argv);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:95:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   95 |         clcpp::init(argc, [01;31m[Kargv[m[K);
+      |                           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

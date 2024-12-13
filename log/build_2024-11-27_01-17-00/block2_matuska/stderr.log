@@ -1,0 +1,12 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:217:39:[m[K [01;31m[Kerror: [m[K‘[01m[Khodnoty2[m[K’ was not declared in this scope; did you mean ‘[01m[Khodnoty3[m[K’?
+  217 |             joint_state.position[2] = [01;31m[Khodnoty2[m[K[0];
+      |                                       [01;31m[K^~~~~~~~[m[K
+      |                                       [32m[Khodnoty3[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:225:39:[m[K [01;31m[Kerror: [m[K‘[01m[Khodnoty2[m[K’ was not declared in this scope; did you mean ‘[01m[Khodnoty3[m[K’?
+  225 |             joint_state.position[3] = [01;31m[Khodnoty2[m[K[0];
+      |                                       [01;31m[K^~~~~~~~[m[K
+      |                                       [32m[Khodnoty3[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

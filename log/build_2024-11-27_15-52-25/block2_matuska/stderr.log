@@ -1,0 +1,14 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:224:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt2_j4[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt2_j5[m[K’?
+  224 |     [01;31m[Kqt2_j4[m[K << best_klb1[0], 0, 0, best_klb2[0], 0, 0;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kqt2_j5[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:227:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::VectorXd qt2_j5[m[K’
+  227 |     Eigen::VectorXd [01;31m[Kqt2_j5[m[K(6);
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:223:21:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::VectorXd qt2_j5[m[K’ previously declared here
+  223 |     Eigen::VectorXd [01;36m[Kqt2_j5[m[K(6);
+      |                     [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

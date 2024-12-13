@@ -1,0 +1,529 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ef1f6d86630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ef1f6eb1640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ef1f6eb1640>>, mixin_verb=('build',))
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matus/ros2_ws'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(cviko1) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'cviko1' with type 'ros.ament_cmake' and name 'cviko1'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_matuska) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/block1_matuska' with type 'ros.ament_cmake' and name 'block1_matuska'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/matuska_interface) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/matuska_interface' with type 'ros.ament_cmake' and name 'matuska_interface'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_msgs' with type 'ros.ament_cmake' and name 'rrm_msgs'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_sim' with type 'ros.ament_cmake' and name 'rrm_sim'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_simple_robot_model' with type 'ros.ament_cmake' and name 'rrm_simple_robot_model'
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/matus/ros2_ws/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/matus/ros2_ws/src/install
+[0.278s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cviko1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'cviko1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/cviko1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/cviko1', 'merge_install': False, 'path': '/home/matus/ros2_ws/cviko1', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'matuska_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'matuska_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/matuska_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/matuska_interface', 'merge_install': False, 'path': '/home/matus/ros2_ws/src/matuska_interface', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/rrm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/rrm_msgs', 'merge_install': False, 'path': '/home/matus/ros2_ws/src/rrm/rrm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_simple_robot_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/rrm_simple_robot_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/rrm_simple_robot_model', 'merge_install': False, 'path': '/home/matus/ros2_ws/src/rrm/rrm_simple_robot_model', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'block1_matuska' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'block1_matuska' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/block1_matuska', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/block1_matuska', 'merge_install': False, 'path': '/home/matus/ros2_ws/src/block1_matuska', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matus/ros2_ws/build/rrm_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matus/ros2_ws/install/rrm_sim', 'merge_install': False, 'path': '/home/matus/ros2_ws/src/rrm/rrm_sim', 'symlink_install': False, 'test_result_base': None}
+[0.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/src/rrm/rrm_msgs' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/src/rrm/rrm_msgs'
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/src/matuska_interface' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/src/matuska_interface'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/cviko1' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/cviko1'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/src/rrm/rrm_simple_robot_model' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/src/rrm/rrm_simple_robot_model'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_msgs -- -j12 -l12
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/matuska_interface -- -j12 -l12
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/cviko1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cviko1 -- -j12 -l12
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_simple_robot_model -- -j12 -l12
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_simple_robot_model -- -j12 -l12
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_simple_robot_model
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/cviko1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cviko1 -- -j12 -l12
+[0.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_simple_robot_model
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/cviko1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/cviko1
+[0.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cviko1)
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/cviko1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/cviko1
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('cviko1', 'cmake_prefix_path')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.sh'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/bin'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib/pkgconfig/cviko1.pc'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib/python3.12/site-packages'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/bin'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.sh'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.bash'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.zsh'
+[0.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/cviko1/share/colcon-core/packages/cviko1)
+[0.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[0.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[0.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cviko1)
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('cviko1', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/cviko1/share/cviko1/hook/cmake_prefix_path.sh'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/bin'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib/pkgconfig/cviko1.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/lib/python3.12/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/cviko1/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/cviko1/share/cviko1/package.zsh'
+[0.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/cviko1/share/colcon-core/packages/cviko1)
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_msgs -- -j12 -l12
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/matuska_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/matuska_interface -- -j12 -l12
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/matuska_interface
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_msgs
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(matuska_interface)
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/matuska_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/matuska_interface
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface' for CMake module files
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface' for CMake config files
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'cmake_prefix_path')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib'
+[1.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'ld_library_path_lib')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.sh'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/bin'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib/pkgconfig/matuska_interface.pc'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'pythonpath')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.sh'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/bin'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.sh'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.zsh'
+[1.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/matuska_interface/share/colcon-core/packages/matuska_interface)
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs' for CMake module files
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_msgs
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs' for CMake config files
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib'
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/bin'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/bin'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(matuska_interface)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface' for CMake module files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'cmake_prefix_path')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/cmake_prefix_path.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'ld_library_path_lib')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/ld_library_path_lib.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/bin'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib/pkgconfig/matuska_interface.pc'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/lib/python3.12/site-packages'
+[1.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('matuska_interface', 'pythonpath')
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/hook/pythonpath.sh'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/matuska_interface/bin'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.sh'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/matuska_interface/share/matuska_interface/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/matuska_interface/share/colcon-core/packages/matuska_interface)
+[1.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs' for CMake module files
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs' for CMake config files
+[1.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib'
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_msgs/bin'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[1.113s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/src/block1_matuska' with build type 'ament_cmake'
+[1.113s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/src/block1_matuska'
+[1.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matus/ros2_ws/src/rrm/rrm_sim' with build type 'ament_cmake'
+[1.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matus/ros2_ws/src/rrm/rrm_sim'
+[1.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.117s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim' for CMake module files
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/bin'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[1.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim' for CMake module files
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim' for CMake config files
+[1.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/bin'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/rrm_sim/bin'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[1.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[8.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[8.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska
+[8.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(block1_matuska)
+[8.589s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska' for CMake module files
+[8.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska
+[8.590s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska' for CMake config files
+[8.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('block1_matuska', 'cmake_prefix_path')
+[8.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.ps1'
+[8.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.dsv'
+[8.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.sh'
+[8.591s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib'
+[8.591s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/bin'
+[8.591s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib/pkgconfig/block1_matuska.pc'
+[8.592s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib/python3.12/site-packages'
+[8.592s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/bin'
+[8.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.ps1'
+[8.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.dsv'
+[8.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.sh'
+[8.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.bash'
+[8.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.zsh'
+[8.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/block1_matuska/share/colcon-core/packages/block1_matuska)
+[8.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(block1_matuska)
+[8.626s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska' for CMake module files
+[8.626s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska' for CMake config files
+[8.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('block1_matuska', 'cmake_prefix_path')
+[8.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.ps1'
+[8.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.dsv'
+[8.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/hook/cmake_prefix_path.sh'
+[8.627s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib'
+[8.628s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/bin'
+[8.628s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib/pkgconfig/block1_matuska.pc'
+[8.628s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/lib/python3.12/site-packages'
+[8.628s] Level 1:colcon.colcon_core.environment:checking '/home/matus/ros2_ws/install/block1_matuska/bin'
+[8.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.ps1'
+[8.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.dsv'
+[8.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.sh'
+[8.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.bash'
+[8.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.zsh'
+[8.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matus/ros2_ws/install/block1_matuska/share/colcon-core/packages/block1_matuska)
+[8.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.630s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.636s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matus/ros2_ws/install/local_setup.ps1'
+[8.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matus/ros2_ws/install/_local_setup_util_ps1.py'
+[8.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matus/ros2_ws/install/setup.ps1'
+[8.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matus/ros2_ws/install/local_setup.sh'
+[8.651s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matus/ros2_ws/install/_local_setup_util_sh.py'
+[8.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matus/ros2_ws/install/setup.sh'
+[8.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matus/ros2_ws/install/local_setup.bash'
+[8.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matus/ros2_ws/install/setup.bash'
+[8.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matus/ros2_ws/install/local_setup.zsh'
+[8.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matus/ros2_ws/install/setup.zsh'

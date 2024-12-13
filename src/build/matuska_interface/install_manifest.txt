@@ -1,0 +1,15 @@
+/home/matus/ros2_ws/src/install/matuska_interface/share/ament_index/resource_index/package_run_dependencies/matuska_interface
+/home/matus/ros2_ws/src/install/matuska_interface/share/ament_index/resource_index/parent_prefix_path/matuska_interface
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/environment/ament_prefix_path.sh
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/environment/ament_prefix_path.dsv
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/environment/path.sh
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/environment/path.dsv
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/local_setup.bash
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/local_setup.sh
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/local_setup.zsh
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/local_setup.dsv
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/package.dsv
+/home/matus/ros2_ws/src/install/matuska_interface/share/ament_index/resource_index/packages/matuska_interface
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/cmake/matuska_interfaceConfig.cmake
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/cmake/matuska_interfaceConfig-version.cmake
+/home/matus/ros2_ws/src/install/matuska_interface/share/matuska_interface/package.xml

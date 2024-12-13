@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from matuska_interface/srv/TeachPosition.srv
+// generated code does not contain a copyright notice
+
+
+module matuska_interface {
+  module srv {
+    struct TeachPosition_Request {
+      double velocity;
+    };
+    struct TeachPosition_Response {
+      boolean result;
+
+      string message;
+    };
+  };
+};

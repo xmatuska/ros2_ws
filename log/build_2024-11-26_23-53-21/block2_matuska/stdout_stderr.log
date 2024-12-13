@@ -1,0 +1,32 @@
+[ 50%] Built target zadanie2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost0[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {[01;31m[Kpost0[m[K, post1, post2, post3, post4, post5, post9};
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost1[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, [01;31m[Kpost1[m[K, post2, post3, post4, post5, post9};
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost2[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, [01;31m[Kpost2[m[K, post3, post4, post5, post9};
+      |                                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost3[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, post2, [01;31m[Kpost3[m[K, post4, post5, post9};
+      |                                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost4[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, post2, post3, [01;31m[Kpost4[m[K, post5, post9};
+      |                                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost5[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, post2, post3, post4, [01;31m[Kpost5[m[K, post9};
+      |                                                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kpost9[m[K’ was not declared in this scope
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, post2, post3, post4, post5, [01;31m[Kpost9[m[K};
+      |                                                                                         [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:130:94:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>, <expression error>, <expression error>, <expression error>, <expression error>, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> >[m[K’
+  130 |     std::vector<Eigen::VectorXd> key_poses = {post0, post1, post2, post3, post4, post5, post9[01;31m[K}[m[K;
+      |                                                                                              [01;31m[K^[m[K
+      |                                                                                              [01;31m[K|[m[K
+      |                                                                                              [01;31m[K<brace-enclosed initializer list>[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

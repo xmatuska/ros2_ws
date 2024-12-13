@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/matus/ros2_ws/build/cviko1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cviko1 -- -j12 -l12
+[0.088s] [100%] Built target cviko1_node
+[0.105s] Invoked command in '/home/matus/ros2_ws/build/cviko1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cviko1 -- -j12 -l12
+[0.162s] Invoking command in '/home/matus/ros2_ws/build/cviko1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/cviko1
+[0.190s] -- Install configuration: ""
+[0.190s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/lib/cviko1/cviko1_node
+[0.190s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/package_run_dependencies/cviko1
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/parent_prefix_path/cviko1
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.sh
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.dsv
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.bash
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.sh
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.zsh
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.dsv
+[0.191s] -- Installing: /home/matus/ros2_ws/install/cviko1/share/cviko1/package.dsv
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/packages/cviko1
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config.cmake
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config-version.cmake
+[0.191s] -- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/package.xml
+[0.220s] Invoked command in '/home/matus/ros2_ws/build/cviko1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/cviko1

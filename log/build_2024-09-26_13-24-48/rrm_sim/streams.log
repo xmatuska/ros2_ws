@@ -1,0 +1,71 @@
+[0.009s] Invoking command in '/home/matus/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_sim -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/rrm_sim
+[0.058s] -- The C compiler identification is GNU 13.2.0
+[0.108s] -- The CXX compiler identification is GNU 13.2.0
+[0.125s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.331s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.533s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.565s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.668s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.761s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.854s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.887s] -- Found rrm_msgs: 0.0.0 (/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[0.901s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.985s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.986s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.986s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matus/ros2_ws/src/rrm/rrm_sim/include>
+[0.986s] -- Configured cppcheck exclude dirs and/or files: 
+[0.987s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.987s] -- Configured cpplint exclude dirs and/or files: 
+[0.988s] -- Added test 'lint_cmake' to check CMake code style
+[0.989s] -- Added test 'uncrustify' to check C / C++ code style
+[0.989s] -- Configured uncrustify additional arguments: 
+[0.989s] -- Added test 'xmllint' to check XML markup files
+[0.990s] -- Configuring done (1.0s)
+[1.001s] -- Generating done (0.0s)
+[1.002s] -- Build files have been written to: /home/matus/ros2_ws/build/rrm_sim
+[1.011s] Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_sim -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/rrm_sim
+[1.012s] Invoking command in '/home/matus/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[1.063s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_sim_node.dir/src/robot_sim_node.cpp.o[0m
+[1.063s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_sim_node.dir/src/motion.cpp.o[0m
+[9.145s] [100%] [32m[1mLinking CXX executable robot_sim_node[0m
+[9.411s] [100%] Built target robot_sim_node
+[9.423s] Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[9.452s] Invoking command in '/home/matus/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim
+[9.459s] -- Install configuration: ""
+[9.459s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node
+[9.465s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node" to ""
+[9.465s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/launch
+[9.465s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/launch/rrm_sim.launch.xml
+[9.465s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/package_run_dependencies/rrm_sim
+[9.465s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/parent_prefix_path/rrm_sim
+[9.465s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.sh
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.dsv
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.sh
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.dsv
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.bash
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.sh
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.zsh
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.dsv
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv
+[9.466s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/packages/rrm_sim
+[9.467s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig.cmake
+[9.467s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig-version.cmake
+[9.467s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.xml
+[9.469s] Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matus/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matus/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim

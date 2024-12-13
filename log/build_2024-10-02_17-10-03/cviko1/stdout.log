@@ -1,0 +1,22 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/cviko1_node.dir/src/cviko1_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cviko1_node.dir/src/robot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cviko1_node[0m
+[100%] Built target cviko1_node
+-- Install configuration: ""
+-- Installing: /home/matus/ros2_ws/install/cviko1/lib/cviko1/cviko1_node
+-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/cviko1/lib/cviko1/cviko1_node" to ""
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/package_run_dependencies/cviko1
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/parent_prefix_path/cviko1
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.bash
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.sh
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.zsh
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/install/cviko1/share/cviko1/package.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/packages/cviko1
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config-version.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/cviko1/share/cviko1/package.xml

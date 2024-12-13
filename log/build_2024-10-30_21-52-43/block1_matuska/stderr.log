@@ -1,0 +1,18 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:95:12:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   95 |     T_tool0[01;31m[K([m[K2, 3) = 0.15;  // Nastavte dĺžku medzi link_6 a tool0 podľa URDF (0.15 metra)
+      |            [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ does not name a type
+   96 |     [01;31m[KT[m[K *= T_tool0;
+      |     [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+   99 |     [01;31m[Ktf_broadcaster_[m[K.sendTransform(transform);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:100:33:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  100 |      std::this_thread::sleep_for[01;31m[K([m[Kstd::chrono::milliseconds(1000));
+      |                                 [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:101:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  101 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

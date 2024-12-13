@@ -1,0 +1,17 @@
+/home/matus/ros2_ws/src/install/block1_matuska/lib/block1_matuska/teleop_node
+/home/matus/ros2_ws/src/install/block1_matuska/lib/block1_matuska/logger_node
+/home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/package_run_dependencies/block1_matuska
+/home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/parent_prefix_path/block1_matuska
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.sh
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.dsv
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/path.sh
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/path.dsv
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.bash
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.sh
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.zsh
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.dsv
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/package.dsv
+/home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/packages/block1_matuska
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig.cmake
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig-version.cmake
+/home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/package.xml

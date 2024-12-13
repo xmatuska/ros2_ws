@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[ 75%] Built target zadanie2_node
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:108:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb1m[m[K’ was not declared in this scope
+  108 |     a1 = [01;31m[Kklb1m[m[K.inverse() * q1;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:108:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kq1[m[K’ was not declared in this scope; did you mean ‘[01m[Ka1[m[K’?
+  108 |     a1 = klb1m.inverse() * [01;31m[Kq1[m[K;
+      |                            [01;31m[K^~[m[K
+      |                            [32m[Ka1[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:113:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb3m1[m[K’ was not declared in this scope
+  113 |     a31 = [01;31m[Kklb3m1[m[K.inverse() * q31;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:113:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kq31[m[K’ was not declared in this scope; did you mean ‘[01m[Ka31[m[K’?
+  113 |     a31 = klb3m1.inverse() * [01;31m[Kq31[m[K;
+      |                              [01;31m[K^~~[m[K
+      |                              [32m[Ka31[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:118:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kklb3m2[m[K’ was not declared in this scope
+  118 |     a32 = [01;31m[Kklb3m2[m[K.inverse() * q32;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:118:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kq32[m[K’ was not declared in this scope; did you mean ‘[01m[Ka32[m[K’?
+  118 |     a32 = klb3m2.inverse() * [01;31m[Kq32[m[K;
+      |                              [01;31m[K^~~[m[K
+      |                              [32m[Ka32[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

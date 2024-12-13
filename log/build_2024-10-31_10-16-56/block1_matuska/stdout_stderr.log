@@ -1,0 +1,10 @@
+[100%] Built target teleop_node
+[100%] Built target logger_node
+-- Install configuration: ""
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/logger_node
+[31mCMake Error at cmake_install.cmake:94 (file):
+  file INSTALL cannot find "/home/matus/ros2_ws/src/block1_matuska/launch":
+  No such file or directory.
+
+[0m

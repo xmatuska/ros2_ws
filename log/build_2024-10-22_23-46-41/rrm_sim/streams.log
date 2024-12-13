@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/matus/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[0.059s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_sim_node.dir/src/robot_sim_node.cpp.o[0m
+[7.742s] [ 66%] [32m[1mLinking CXX executable robot_sim_node[0m
+[8.007s] [100%] Built target robot_sim_node
+[8.017s] Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/rrm_sim -- -j12 -l12
+[8.043s] Invoking command in '/home/matus/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim
+[8.050s] -- Install configuration: ""
+[8.051s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node
+[8.056s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node" to ""
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/launch
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/launch/rrm_sim.launch.xml
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/package_run_dependencies/rrm_sim
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/parent_prefix_path/rrm_sim
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.sh
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.dsv
+[8.056s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.sh
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.dsv
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.bash
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.sh
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.zsh
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.dsv
+[8.057s] -- Installing: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/ament_index/resource_index/packages/rrm_sim
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig.cmake
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig-version.cmake
+[8.057s] -- Up-to-date: /home/matus/ros2_ws/install/rrm_sim/share/rrm_sim/package.xml
+[8.058s] Invoked command in '/home/matus/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/rrm_sim

@@ -1,0 +1,34 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:8:36:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6d[m[K’ in namespace ‘[01m[KEigen[m[K’ does not name a type; did you mean ‘[01m[KVectorXd[m[K’?
+    8 | void computeIKForPose(const Eigen::[01;31m[KVector6d[m[K& pose_vector)
+      |                                    [01;31m[K^~~~~~~~[m[K
+      |                                    [32m[KVectorXd[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K computeIKForPose[m[K(const int&)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:14:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   14 |     double x = pose_vector[01;31m[K[[m[K0];
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:15:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   15 |     double y = pose_vector[01;31m[K[[m[K1];
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:16:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   16 |     double z = pose_vector[01;31m[K[[m[K2];
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:17:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   17 |     double rx = pose_vector[01;31m[K[[m[K3];
+      |                            [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:18:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   18 |     double ry = pose_vector[01;31m[K[[m[K4];
+      |                            [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:19:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+   19 |     double rz = pose_vector[01;31m[K[[m[K5];
+      |                            [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6d[m[K’ is not a member of ‘[01m[KEigen[m[K’; did you mean ‘[01m[KVectorXd[m[K’?
+   50 |     Eigen::[01;31m[KVector6d[m[K pose_vector;
+      |            [01;31m[K^~~~~~~~[m[K
+      |            [32m[KVectorXd[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_vector[m[K’ was not declared in this scope
+   51 |     [01;31m[Kpose_vector[m[K << 0.000872, 0.0, 2.490139, 0, 0, 0; // Example values for position and orientation
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

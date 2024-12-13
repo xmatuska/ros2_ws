@@ -1,0 +1,14 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kbest_klb1[m[K’ was not declared in this scope; did you mean ‘[01m[Kbest_klb0[m[K’?
+  169 |     Eigen::VectorXd a1 = matica1.inverse() * [01;31m[Kbest_klb1[m[K;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                              [32m[Kbest_klb0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:173:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::VectorXd a1[m[K’
+  173 |     Eigen::VectorXd [01;31m[Ka1[m[K = matica1.inverse() * best_klb1;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:21:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::VectorXd a1[m[K’ previously declared here
+  169 |     Eigen::VectorXd [01;36m[Ka1[m[K = matica1.inverse() * best_klb1;
+      |                     [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:88:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Matrix4d T_tool0[m[K’
+   88 |     Eigen::Matrix4d [01;31m[KT_tool0[m[K = Eigen::Matrix4d::Identity();
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:66:21:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix4d T_tool0[m[K’ previously declared here
+   66 |     Eigen::Matrix4d [01;36m[KT_tool0[m[K = Eigen::Matrix4d::Identity();
+      |                     [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

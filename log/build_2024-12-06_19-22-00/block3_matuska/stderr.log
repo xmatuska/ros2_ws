@@ -1,0 +1,13 @@
+[01m[K/home/matus/ros2_ws/src/block3_matuska/src/publisher_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block3_matuska/src/publisher_node.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+   14 |     [01;31m[Kshapes[m[K::Mesh* mesh = shapes::createMeshFromResource("file://path_to_your_mesh.stl");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block3_matuska/src/publisher_node.cpp:14:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesh[m[K’ was not declared in this scope
+   14 |     shapes::Mesh* [01;31m[Kmesh[m[K = shapes::createMeshFromResource("file://path_to_your_mesh.stl");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block3_matuska/src/publisher_node.cpp:14:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+   14 |     shapes::Mesh* mesh = [01;31m[Kshapes[m[K::createMeshFromResource("file://path_to_your_mesh.stl");
+      |                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[0.016s] Invoking command in '/home/matus/ros2_ws/src/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/matuska_interface -- -j12 -l12
+[0.037s] [31mCMake Error at CMakeLists.txt:14:
+[0.037s]   Parse error.  Expected "(", got identifier with text "aj".
+[0.037s] 
+[0.037s] [0m
+[0.037s] -- Configuring incomplete, errors occurred!
+[0.038s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.041s] Invoked command in '/home/matus/ros2_ws/src/build/matuska_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/matuska_interface -- -j12 -l12

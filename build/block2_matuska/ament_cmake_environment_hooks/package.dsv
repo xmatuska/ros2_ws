@@ -1,0 +1,4 @@
+source;share/block2_matuska/local_setup.bash
+source;share/block2_matuska/local_setup.dsv
+source;share/block2_matuska/local_setup.sh
+source;share/block2_matuska/local_setup.zsh

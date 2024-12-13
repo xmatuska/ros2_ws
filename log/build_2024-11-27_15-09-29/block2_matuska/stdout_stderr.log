@@ -1,0 +1,51 @@
+[ 50%] Built target zadanie2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:181:41:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’} to non-scalar type ‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>[m[K’} requested
+  181 |     Eigen::VectorXd qt1_j0 = best_klb0[0[01;31m[K][m[K, 0, 0, best_klb1[0], 0, 0;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:181:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  181 |     Eigen::VectorXd qt1_j0 = best_klb0[0], [01;31m[K0[m[K, 0, best_klb1[0], 0, 0;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:184:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+  184 |     Eigen::VectorXd qt1_j1 [01;31m[K<<[m[K best_klb0[1], 0, 0, best_klb1[1], 0, 0;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:185:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j1[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+  185 |     Eigen::VectorXd a1_j1 = matica1.inverse() * [01;31m[Kqt1_j1[m[K;
+      |                                                 [01;31m[K^~~~~~[m[K
+      |                                                 [32m[Kqt1_j0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:187:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+  187 |     Eigen::VectorXd qt1_j2 [01;31m[K<<[m[K best_klb0[2], 0, 0, best_klb1[2], 0, 0;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:188:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j2[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+  188 |     Eigen::VectorXd a1_j2 = matica1.inverse() * [01;31m[Kqt1_j2[m[K;
+      |                                                 [01;31m[K^~~~~~[m[K
+      |                                                 [32m[Kqt1_j0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+  190 |     Eigen::VectorXd qt1_j3 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:191:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j3[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+  191 |     Eigen::VectorXd a1_j3 = matica1.inverse() * [01;31m[Kqt1_j3[m[K;
+      |                                                 [01;31m[K^~~~~~[m[K
+      |                                                 [32m[Kqt1_j0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:193:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+  193 |     Eigen::VectorXd qt1_j4 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j4[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+  194 |     Eigen::VectorXd a1_j4 = matica1.inverse() * [01;31m[Kqt1_j4[m[K;
+      |                                                 [01;31m[K^~~~~~[m[K
+      |                                                 [32m[Kqt1_j0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:196:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K<<[m[K’ token
+  196 |     Eigen::VectorXd qt1_j5 [01;31m[K<<[m[K best_klb0[0], 0, 0, best_klb1[0], 0, 0;
+      |                            [01;31m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:197:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt1_j5[m[K’ was not declared in this scope; did you mean ‘[01m[Kqt1_j0[m[K’?
+  197 |     Eigen::VectorXd a1_j5 = matica1.inverse() * [01;31m[Kqt1_j5[m[K;
+      |                                                 [01;31m[K^~~~~~[m[K
+      |                                                 [32m[Kqt1_j0[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:210:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+  210 |                 [01;31m[Kjoint_state_[m[K.position[0] = hodnoty(t, a1_j0)[0];
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[Kjoint_state[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

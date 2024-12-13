@@ -1,0 +1,11 @@
+{
+  "package_name": "matuska_interface",
+  "output_dir": "/home/matus/ros2_ws/build/matuska_interface/rosidl_generator_type_description/matuska_interface",
+  "idl_tuples": [
+    "/home/matus/ros2_ws/build/matuska_interface/rosidl_adapter/matuska_interface:srv/TeachPosition.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

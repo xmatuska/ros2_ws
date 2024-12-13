@@ -1,0 +1,6 @@
+{
+  "package_name": "matuska_interface",
+  "non_idl_tuples": [
+    "/home/matus/ros2_ws/src/matuska_interface:srv/TeachPosition.srv"
+  ]
+}

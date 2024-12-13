@@ -1,0 +1,1 @@
+Invoking command in '/home/matus/ros2_ws/build/rrm_simple_robot_model': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/rrm/rrm_simple_robot_model -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/rrm_simple_robot_model

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable teleop_node[0m
+[100%] Built target teleop_node
+-- Install configuration: ""
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/lib/block1_matuska/teleop_node
+-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/src/install/block1_matuska/lib/block1_matuska/teleop_node" to ""
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/package_run_dependencies/block1_matuska
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/parent_prefix_path/block1_matuska
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.sh
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.dsv
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/path.sh
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/environment/path.dsv
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.bash
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.sh
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.zsh
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/package.dsv
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/ament_index/resource_index/packages/block1_matuska
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig.cmake
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig-version.cmake
+-- Installing: /home/matus/ros2_ws/src/install/block1_matuska/share/block1_matuska/package.xml

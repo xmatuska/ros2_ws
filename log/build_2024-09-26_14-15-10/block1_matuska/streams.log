@@ -1,0 +1,63 @@
+[0.007s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/block1_matuska -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/block1_matuska
+[0.056s] -- The C compiler identification is GNU 13.2.0
+[0.106s] -- The CXX compiler identification is GNU 13.2.0
+[0.123s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.535s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.567s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.669s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.671s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.762s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found rrm_msgs: 0.0.0 (/home/matus/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[0.856s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.938s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matus/ros2_ws/src/block1_matuska/include>
+[0.938s] -- Configured cppcheck exclude dirs and/or files: 
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'uncrustify' to check C / C++ code style
+[0.939s] -- Configured uncrustify additional arguments: 
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.941s] -- Configuring done (0.9s)
+[0.950s] -- Generating done (0.0s)
+[0.951s] -- Build files have been written to: /home/matus/ros2_ws/build/block1_matuska
+[0.961s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/block1_matuska -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/block1_matuska
+[0.962s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[1.010s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[4.777s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[4.900s] [100%] Built target teleop_node
+[4.911s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[4.938s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska
+[4.945s] -- Install configuration: ""
+[4.945s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node
+[4.946s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node" to ""
+[4.946s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/package_run_dependencies/block1_matuska
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/parent_prefix_path/block1_matuska
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.sh
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.dsv
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.sh
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.dsv
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.bash
+[4.947s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.sh
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.zsh
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.dsv
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.dsv
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/packages/block1_matuska
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig.cmake
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig-version.cmake
+[4.948s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.xml
+[4.950s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska

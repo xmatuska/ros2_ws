@@ -1,0 +1,17 @@
+/home/matus/ros2_ws/install/block3_matuska/lib/block3_matuska/zadanie3_node
+/home/matus/ros2_ws/install/block3_matuska/lib/block3_matuska/publisher_node
+/home/matus/ros2_ws/install/block3_matuska/share/ament_index/resource_index/package_run_dependencies/block3_matuska
+/home/matus/ros2_ws/install/block3_matuska/share/ament_index/resource_index/parent_prefix_path/block3_matuska
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/environment/ament_prefix_path.sh
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/environment/ament_prefix_path.dsv
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/environment/path.sh
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/environment/path.dsv
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/local_setup.bash
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/local_setup.sh
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/local_setup.zsh
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/local_setup.dsv
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/package.dsv
+/home/matus/ros2_ws/install/block3_matuska/share/ament_index/resource_index/packages/block3_matuska
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/cmake/block3_matuskaConfig.cmake
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/cmake/block3_matuskaConfig-version.cmake
+/home/matus/ros2_ws/install/block3_matuska/share/block3_matuska/package.xml

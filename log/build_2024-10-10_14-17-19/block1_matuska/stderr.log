@@ -1,0 +1,30 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:8:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass JointLogger[m[K’
+    8 | class [01;31m[KJointLogger[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:2[m[K:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/include/logger_node.hpp:4:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass JointLogger[m[K’
+    4 | class [01;36m[KJointLogger[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:8:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+    8 | [01;31m[Kclass[m[K JointLogger : public rclcpp::Node
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:8:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[K<type error>[m[K’)
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In constructor ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kservice_msgs[m[K’?
+   27 |     [01;31m[Kservice_[m[K = this->create_service<matuska_interface::srv::TeachPosition>("my_service",
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kservice_msgs[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:28:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kteach_position_callback[m[K’ is not a member of ‘[01m[KJointLogger[m[K’
+   28 |         std::bind(&JointLogger::[01;31m[Kteach_position_callback[m[K, this, std::placeholders::_1, std::placeholders::_2));
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K At global scope:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:47:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid JointLogger::[01;32m[Kteach_position_callback[m[K(std::shared_ptr<matuska_interface::srv::TeachPosition_Request_<std::allocator<void> > >, std::shared_ptr<matuska_interface::srv::TeachPosition_Response_<std::allocator<void> > >)[m[K’
+   47 | void [01;31m[KJointLogger[m[K::teach_position_callback(const std::shared_ptr<matuska_interface::srv::TeachPosition::Request>request, std::shared_ptr<matuska_interface::srv::TeachPosition::Response> response)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:47:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid JointLogger::[01;32m[Kteach_position_callback[m[K(std::shared_ptr<matuska_interface::srv::TeachPosition_Request_<std::allocator<void> > >, std::shared_ptr<matuska_interface::srv::TeachPosition_Response_<std::allocator<void> > >)[m[K’
+[01m[K/home/matus/ros2_ws/src/block1_matuska/include/logger_node.hpp:4:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass JointLogger[m[K’ defined here
+    4 | class [01;36m[KJointLogger[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

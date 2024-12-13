@@ -1,0 +1,10 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   41 |     [01;31m[Ktf2[m[K::Quaternion q;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   42 |     [01;31m[Kq[m[K.setRPY(0, 0, 1.57);
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

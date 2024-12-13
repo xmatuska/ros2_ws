@@ -1,0 +1,20 @@
+[01m[K/home/matus/ros2_ws/cviko1/src/cviko1_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/cviko1/src/cviko1_node.cpp:41:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobot::move(double&)[m[K’
+   41 |         [01;31m[Krobot.move(move_amount)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/matus/ros2_ws/cviko1/src/cviko1_node.cpp:3[m[K:
+[01m[K/home/matus/ros2_ws/cviko1/include/cviko1/robot.hpp:7:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’
+    7 |     void [01;36m[Kmove[m[K(double dx, double dy);
+      |          [01;36m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/cviko1/include/cviko1/robot.hpp:7:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/matus/ros2_ws/cviko1/src/cviko1_node.cpp:2[m[K:
+[01m[K/home/matus/ros2_ws/cviko1/src/cviko1_node.cpp:42:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[KgetCurrentPosition[m[K’
+   42 | RCLCPP_INFO(node->get_logger(), "Aktuálna pozícia: %.2f", robot.[01;31m[KgetCurrentPosition[m[K());
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/cviko1_node.dir/build.make:76: CMakeFiles/cviko1_node.dir/src/cviko1_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cviko1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

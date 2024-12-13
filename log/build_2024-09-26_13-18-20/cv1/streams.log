@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/matus/ros2_ws/build/cv1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cv1 -- -j12 -l12
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/cv1_node.dir/src/cv1_node.cpp.o[0m
+[0.099s] [100%] [32m[1mLinking CXX executable cv1_node[0m
+[0.172s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.172s] (.text+0x1b): undefined reference to `main'
+[0.174s] collect2: error: ld returned 1 exit status
+[0.177s] gmake[2]: *** [CMakeFiles/cv1_node.dir/build.make:163: cv1_node] Error 1
+[0.177s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cv1_node.dir/all] Error 2
+[0.178s] gmake: *** [Makefile:146: all] Error 2
+[0.181s] Invoked command in '/home/matus/ros2_ws/build/cv1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/cv1 -- -j12 -l12

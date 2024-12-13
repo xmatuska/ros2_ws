@@ -1,0 +1,7 @@
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Ksave_position_to_file[m[K(int, const std::vector<double, std::allocator<double> >&, float)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:30:23:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream file[m[K’ has initializer but incomplete type
+   30 |     std::ofstream file[01;31m[K([m[K"trajectory_points.txt", std::ios::app);
+      |                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

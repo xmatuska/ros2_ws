@@ -1,0 +1,16 @@
+/home/matus/ros2_ws/install/cviko1/lib/cviko1/cviko1_node
+/home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/package_run_dependencies/cviko1
+/home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/parent_prefix_path/cviko1
+/home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.sh
+/home/matus/ros2_ws/install/cviko1/share/cviko1/environment/ament_prefix_path.dsv
+/home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.sh
+/home/matus/ros2_ws/install/cviko1/share/cviko1/environment/path.dsv
+/home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.bash
+/home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.sh
+/home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.zsh
+/home/matus/ros2_ws/install/cviko1/share/cviko1/local_setup.dsv
+/home/matus/ros2_ws/install/cviko1/share/cviko1/package.dsv
+/home/matus/ros2_ws/install/cviko1/share/ament_index/resource_index/packages/cviko1
+/home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config.cmake
+/home/matus/ros2_ws/install/cviko1/share/cviko1/cmake/cviko1Config-version.cmake
+/home/matus/ros2_ws/install/cviko1/share/cviko1/package.xml

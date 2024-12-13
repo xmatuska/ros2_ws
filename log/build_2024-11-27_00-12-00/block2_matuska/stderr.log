@@ -1,0 +1,20 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:185:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+  185 |                 [01;31m[Kjoint_state_[m[K.position[0] = hodnoty1[0];
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[Kjoint_state[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+  190 |             [01;31m[Kjoint_state_[m[K.header.stamp = this->get_clock()->now();
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[Kjoint_state[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:41:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  190 |             joint_state_.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:191:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+  191 |             [01;31m[Kpublisher_[m[K->publish(joint_state_);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kpublisher[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

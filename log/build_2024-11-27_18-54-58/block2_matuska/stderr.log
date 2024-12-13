@@ -1,0 +1,319 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:120:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  120 |         rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr service_;
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:120:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |         rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr service_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:120:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  120 |         rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K service_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:120:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+  120 |         rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  135 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  135 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  135 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  135 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  135 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  135 |         const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  135 |         const [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |               [01;31m[K^~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+  135 |         const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:135:9:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+  135 |         [01;31m[Kconst[m[K std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |         [01;31m[K^~~~~[m[K
+      |              [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  136 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  136 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  136 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  136 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+  136 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:136:9:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+  136 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |         [01;31m[K^~~[m[K
+      |            [32m[K<>[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:446:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  446 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In constructor ‘[01m[KTrajectoryNode::[01;32m[KTrajectoryNode[m[K()[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:93:75:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTrajectoryNode[m[K’ does not have any field named ‘[01m[Kcsv_file_[m[K’
+   93 |         TrajectoryNode() : Node("zadanie2_node"), service_called_(false), [01;31m[Kcsv_file_[m[K("trajectory_log.csv") {
+      |                                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:95:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   95 |         publisher_ = [01;31m[Knode[m[K->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+      |                      [01;31m[K^~~~[m[K
+      |                      [32m[KNode[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:95:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   95 |         publisher_ = node->create_publisher<sensor_msgs::msg::JointState[01;31m[K>[m[K("joint_states", 10);
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:98:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kservice_msgs[m[K’?
+   98 |         [01;31m[Kservice_[m[K = this->create_service<std_srvs::srv::Trigger>(
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kservice_msgs[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:98:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   98 |         service_ = this->create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>(
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:98:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   98 |         service_ = this->[01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:98:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrajectoryNode::create_service<<expression error> >(const char [13], std::_Bind_helper<false, void (TrajectoryNode::*)(...), TrajectoryNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   98 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   99 | [01;31m[K            "zapni_robota",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                     
+  100 | [01;31m[K            std::bind(&TrajectoryNode::startTrajectoryCallback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  302 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  318 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:98:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   98 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   99 | [01;31m[K            "zapni_robota",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                     
+  100 | [01;31m[K            std::bind(&TrajectoryNode::startTrajectoryCallback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryNode::[01;32m[KstartTrajectoryCallback[m[K(...)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:149:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  149 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 1 = \n" << matica1);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:149:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 1 = \n" << matica1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:149:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 1 = \n" << matica1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:149:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 1 = \n" << matica1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:153:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  153 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 2 = \n" << matica2);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:153:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 2 = \n" << matica2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:153:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 2 = \n" << matica2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:153:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 2 = \n" << matica2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:157:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  157 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 3 = \n" << matica3);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:157:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 3 = \n" << matica3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:157:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 3 = \n" << matica3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:157:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 3 = \n" << matica3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:161:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  161 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 4 = \n" << matica4);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:161:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  161 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 4 = \n" << matica4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:161:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  161 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 4 = \n" << matica4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:161:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  161 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 4 = \n" << matica4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:165:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  165 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 5= \n" << matica5);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 5= \n" << matica5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 5= \n" << matica5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 5= \n" << matica5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  169 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "matica 6= \n" << matica9);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 6= \n" << matica9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 6= \n" << matica9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:169:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "matica 6= \n" << matica9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:174:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  174 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v tzero = \n" << postzero);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:174:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  174 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v tzero = \n" << postzero);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:174:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  174 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v tzero = \n" << postzero);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:174:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  174 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v tzero = \n" << postzero);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:178:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  178 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t0 = \n" << post0);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:178:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  178 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t0 = \n" << post0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:178:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  178 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t0 = \n" << post0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:178:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  178 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t0 = \n" << post0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:182:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  182 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t1 = \n" << post1);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:182:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t1 = \n" << post1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:182:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t1 = \n" << post1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:182:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t1 = \n" << post1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:186:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  186 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t2 = \n" << post2);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:186:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t2 = \n" << post2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:186:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t2 = \n" << post2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:186:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t2 = \n" << post2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  190 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t3 = \n" << post3);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t3 = \n" << post3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t3 = \n" << post3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:190:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t3 = \n" << post3);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  194 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t4 = \n" << post4);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  194 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t4 = \n" << post4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  194 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t4 = \n" << post4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:194:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  194 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t4 = \n" << post4);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:198:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  198 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t5 = \n" << post5);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:198:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  198 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t5 = \n" << post5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:198:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  198 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t5 = \n" << post5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:198:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  198 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t5 = \n" << post5);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:202:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  202 |     RCLCPP_INFO_STREAM([01;31m[Knode[m[K->get_logger(), "pozicia v t9 = \n" << post9);
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  202 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t9 = \n" << post9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  202 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t9 = \n" << post9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  202 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "pozicia v t9 = \n" << post9);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:209:60:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  209 |     Eigen::VectorXd best_klb0 = computeIK(postzero, post0, [01;31m[Knode[m[K->get_logger());
+      |                                                            [01;31m[K^~~~[m[K
+      |                                                            [32m[KNode[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:368:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state_[m[K’?
+  368 |     [01;31m[Kjoint_state[m[K.header.stamp = node->get_clock()->now();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kjoint_state_[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:435:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+  435 |             [01;31m[Kpublisher[m[K->publish(joint_state);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kpublisher_[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:440:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  440 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

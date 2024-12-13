@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:33:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KTrue[m[K’
+   33 | while [01;31m[KT[m[K[32m[Krue[m[K:
+      |       [01;31m[K^[m[K[32m[K~~~[m[K
+      |       [32m[K([m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:33:11:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   33 | while True[01;31m[K:[m[K
+      |           [01;31m[K^[m[K
+      |           [32m[K::[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ has not been declared
+   33 | while [01;31m[KTrue[m[K:
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:35:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+   35 |     klb = [01;31m[Kinput[m[K("Zadaj hodnotu pre klb (pre ukončenie zadaj 'q'): ")
+      |           [01;31m[K^~~~~[m[K
+      |           [32m[Kint[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:35:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+   35 |     klb = input("Zadaj hodnotu pre klb (pre ukončenie zadaj 'q'): ")
+      |                                                                     [01;31m[K^[m[K
+      |                                                                     [32m[K)[m[K
+   36 |     [32m[Kif[m[K klb.lower() == 'q':
+      |     [32m[K~~[m[K                                                               
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:33:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   33 | while [01;36m[KTrue[m[K:
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block1_matuska/src/teleop_node.cpp:36:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kklb[m[K’
+   36 |     if [01;31m[Kk[m[K[32m[Klb[m[K.lower() == 'q':
+      |        [01;31m[K^[m[K[32m[K~~[m[K
+      |        [32m[K([m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

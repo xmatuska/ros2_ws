@@ -1,0 +1,22 @@
+[0.032s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[0.175s] [ 50%] Built target teleop_node
+[0.192s] [ 75%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[7.007s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:95:12:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[7.008s]    95 |     T_tool0[01;31m[K([m[K2, 3) = 0.15;  // Nastavte dĺžku medzi link_6 a tool0 podľa URDF (0.15 metra)
+[7.008s]       |            [01;31m[K^[m[K
+[7.009s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ does not name a type
+[7.009s]    96 |     [01;31m[KT[m[K *= T_tool0;
+[7.009s]       |     [01;31m[K^[m[K
+[7.013s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+[7.013s]    99 |     [01;31m[Ktf_broadcaster_[m[K.sendTransform(transform);
+[7.013s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.013s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:100:33:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[7.013s]   100 |      std::this_thread::sleep_for[01;31m[K([m[Kstd::chrono::milliseconds(1000));
+[7.014s]       |                                 [01;31m[K^[m[K
+[7.014s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:101:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[7.014s]   101 | [01;31m[K}[m[K
+[7.014s]       | [01;31m[K^[m[K
+[9.740s] gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+[9.740s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+[9.740s] gmake: *** [Makefile:146: all] Error 2
+[9.743s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/eigen_example:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12

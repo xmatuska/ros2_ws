@@ -1,0 +1,44 @@
+[0.027s] Invoking command in '/home/matus/ros2_ws/build/ik_solver_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/ik_solver_example -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/ik_solver_example
+[0.141s] -- The C compiler identification is GNU 13.2.0
+[0.258s] -- The CXX compiler identification is GNU 13.2.0
+[0.287s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.521s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.674s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.802s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.857s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.027s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.127s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.148s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.172s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.273s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.273s]   By not providing "Findabb_irb4600_ikfast.cmake" in CMAKE_MODULE_PATH this
+[1.273s]   project has asked CMake to find a package configuration file provided by
+[1.273s]   "abb_irb4600_ikfast", but CMake did not find one.
+[1.273s] 
+[1.274s]   Could not find a package configuration file provided by
+[1.274s]   "abb_irb4600_ikfast" with any of the following names:
+[1.274s] 
+[1.274s]     abb_irb4600_ikfastConfig.cmake
+[1.274s]     abb_irb4600_ikfast-config.cmake
+[1.274s] 
+[1.274s]   Add the installation prefix of "abb_irb4600_ikfast" to CMAKE_PREFIX_PATH or
+[1.274s]   set "abb_irb4600_ikfast_DIR" to a directory containing one of the above
+[1.274s]   files.  If "abb_irb4600_ikfast" provides a separate development package or
+[1.274s]   SDK, be sure it has been installed.
+[1.274s] 
+[1.274s] [0m
+[1.274s] -- Configuring incomplete, errors occurred!
+[1.289s] Invoked command in '/home/matus/ros2_ws/build/ik_solver_example' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matus/ros2_ws/src/ik_solver_example -DCMAKE_INSTALL_PREFIX=/home/matus/ros2_ws/install/ik_solver_example

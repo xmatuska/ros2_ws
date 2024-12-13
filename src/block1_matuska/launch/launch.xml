@@ -1,0 +1,5 @@
+<launch>
+<node pkg="rrm_sim" exec="robot_sim_node" name="rrm_sim"
+output="screen"/>
+<include file="/install/rrm_simple_robot_model/share/launch/robot_state_publisher.launch.xml"/>
+</launch>

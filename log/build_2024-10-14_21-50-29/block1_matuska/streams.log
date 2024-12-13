@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[0.064s] [ 50%] Built target teleop_node
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[2.022s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Ksave_position_to_file[m[K(int, const std::vector<double, std::allocator<double> >&, float)[m[K’:
+[2.022s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:30:23:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream file[m[K’ has initializer but incomplete type
+[2.022s]    30 |     std::ofstream file[01;31m[K([m[K"trajectory_points.txt", std::ios::app);
+[2.023s]       |                       [01;31m[K^[m[K
+[2.025s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:[m[K In member function ‘[01m[Kvoid JointLogger::[01;32m[Kteach_position_callback[m[K(std::shared_ptr<matuska_interface::srv::TeachPosition_Request_<std::allocator<void> > >, std::shared_ptr<matuska_interface::srv::TeachPosition_Response_<std::allocator<void> > >)[m[K’:
+[2.025s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:55:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint id[m[K’
+[2.025s]    55 |     int [01;31m[Kid[m[K = point_id_counter_++;
+[2.025s]       |         [01;31m[K^~[m[K
+[2.025s] [01m[K/home/matus/ros2_ws/src/block1_matuska/src/logger_node.cpp:46:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint id[m[K’ previously declared here
+[2.025s]    46 |     int [01;36m[Kid[m[K = 1; // Tu môžete pridať logiku na generovanie unikátneho ID
+[2.026s]       |         [01;36m[K^~[m[K
+[4.087s] gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+[4.087s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+[4.088s] gmake: *** [Makefile:146: all] Error 2
+[4.091s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '2': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/matuska_interface:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/home/matus/ros2_ws/src/install/rrm_simple_robot_model:/home/matus/ros2_ws/src/install/rrm_sim:/home/matus/ros2_ws/src/install/block1_matuska:/home/matus/ros2_ws/src/install/rrm_msgs:/home/matus/ros2_ws/src/install/matuska_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12

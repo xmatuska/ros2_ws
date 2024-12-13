@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[0.115s] [ 50%] Built target logger_node
+[0.119s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[3.667s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[3.777s] [100%] Built target teleop_node
+[3.787s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/build/block1_matuska -- -j12 -l12
+[3.822s] Invoking command in '/home/matus/ros2_ws/build/block1_matuska': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska
+[3.830s] -- Install configuration: ""
+[3.830s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node
+[3.831s] -- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node" to ""
+[3.831s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/logger_node
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/package_run_dependencies/block1_matuska
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/parent_prefix_path/block1_matuska
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.sh
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.dsv
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.sh
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.dsv
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.bash
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.sh
+[3.832s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.zsh
+[3.833s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.dsv
+[3.833s] -- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.dsv
+[3.833s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/packages/block1_matuska
+[3.833s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig.cmake
+[3.833s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig-version.cmake
+[3.833s] -- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.xml
+[3.834s] Invoked command in '/home/matus/ros2_ws/build/block1_matuska' returned '0': CMAKE_PREFIX_PATH=/home/matus/ros2_ws/install/rrm_msgs:/home/matus/ros2_ws/install/rrm_simple_robot_model:/home/matus/ros2_ws/install/rrm_sim:/home/matus/ros2_ws/install/block1_matuska:/home/matus/ros2_ws/install/cviko1:/home/matus/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matus/ros2_ws/build/block1_matuska

@@ -1,0 +1,7 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:177:51:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ to non-scalar type ‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>[m[K’} requested
+  177 |                 Eigen::VectorXd hodnoty1 = [01;31m[Khodnoty(t, a1)[m[K;
+      |                                            [01;31m[K~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

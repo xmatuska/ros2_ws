@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryNode::[01;32m[KstartTrajectoryCallback[m[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:66:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable zadanie2_node[0m
+[100%] Built target zadanie2_node
+-- Install configuration: ""
+-- Installing: /home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node
+-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node" to ""
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch/zadanie2_launch.xml
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/package_run_dependencies/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/parent_prefix_path/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.bash
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.zsh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/packages/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig-version.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.xml

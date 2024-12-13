@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In function ‘[01m[Kdouble[01;32m[K hodnoty[m[K(double, const Eigen::VectorXd&)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:32:12:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   32 |     return [01;35m[Kpozicia[m[K, rychlost, zrychlenie;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:32:31:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   32 |     return pozicia, rychlost, [01;35m[Kzrychlenie[m[K;
+      |                               [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable zadanie2_node[0m
+[100%] Built target zadanie2_node
+-- Install configuration: ""
+-- Installing: /home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node
+-- Set non-toolchain portion of runtime path of "/home/matus/ros2_ws/install/block2_matuska/lib/block2_matuska/zadanie2_node" to ""
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/launch/zadanie2_launch.xml
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/package_run_dependencies/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/parent_prefix_path/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/environment/path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.bash
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.zsh
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/ament_index/resource_index/packages/block2_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/cmake/block2_matuskaConfig-version.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block2_matuska/share/block2_matuska/package.xml

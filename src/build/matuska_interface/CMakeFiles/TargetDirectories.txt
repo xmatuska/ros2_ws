@@ -1,0 +1,9 @@
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/uninstall.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/matuska_interface_uninstall.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/test.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/edit_cache.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/rebuild_cache.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/list_install_components.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/install.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/install/local.dir
+/home/matus/ros2_ws/src/build/matuska_interface/CMakeFiles/install/strip.dir

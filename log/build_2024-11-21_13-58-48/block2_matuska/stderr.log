@@ -1,0 +1,21 @@
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:144:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+  144 |             double tmp = [01;31m[Khodnoty(4, a1)[m[K;
+      |                          [01;31m[K~~~~~~~^~~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kstd::vector<double, std::allocator<double> >[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:144:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  144 |             double [01;35m[Ktmp[m[K = hodnoty(4, a1);
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:49:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   49 |     double [01;35m[Kt0[m[K = 0;
+      |            [01;35m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:50:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |     double [01;35m[Ktf[m[K = 4;
+      |            [01;35m[K^~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie2_node.cpp:71:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfactor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |     double [01;35m[Kfactor[m[K = 0.5; // rad/s
+      |            [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie2_node.dir/build.make:76: CMakeFiles/zadanie2_node.dir/src/zadanie2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zadanie2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

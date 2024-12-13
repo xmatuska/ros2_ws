@@ -1,0 +1,20 @@
+[ 75%] Built target teleop_node
+[100%] Built target logger_node
+-- Install configuration: ""
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/teleop_node
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/lib/block1_matuska/logger_node
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/package_run_dependencies/block1_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/parent_prefix_path/block1_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/environment/path.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.bash
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.sh
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.zsh
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/local_setup.dsv
+-- Installing: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.dsv
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/ament_index/resource_index/packages/block1_matuska
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/cmake/block1_matuskaConfig-version.cmake
+-- Up-to-date: /home/matus/ros2_ws/install/block1_matuska/share/block1_matuska/package.xml

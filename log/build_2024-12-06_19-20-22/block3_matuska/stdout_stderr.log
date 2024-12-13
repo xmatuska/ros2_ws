@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[ 75%] Built target zadanie3_node
+[01m[K/home/matus/ros2_ws/src/block3_matuska/src/publisher_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kshape_msgs/msg/mesh.hpp: No such file or directory
+    3 | #include [01;31m[K<shape_msgs/msg/mesh.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

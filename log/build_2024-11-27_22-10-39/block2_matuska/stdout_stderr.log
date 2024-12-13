@@ -1,0 +1,40 @@
+[ 50%] Built target zadanie2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o[0m
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:335:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile1[m[K’ has initializer but incomplete type
+  335 |     std::ofstream csvFile1[01;31m[K([m[K"y_params.csv");
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:336:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile2[m[K’ has initializer but incomplete type
+  336 |     std::ofstream csvFile2[01;31m[K([m[K"z_params.csv");
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:337:27:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream csvFile3[m[K’ has initializer but incomplete type
+  337 |     std::ofstream csvFile3[01;31m[K([m[K"z_params.csv");
+      |                           [01;31m[K^[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:415:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_file_[m[K’ was not declared in this scope
+  415 |                 [01;31m[Kcsv_file_[m[K << t << ","
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:416:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+  416 |                           << [01;31m[Kjoint_state_[m[K.position[0] << "," << joint_state_.velocity[0] << "," << joint_state_.effort[0] << "," << jerk_1 << ","
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+      |                              [32m[Kjoint_state[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:416:133:[m[K [01;31m[Kerror: [m[K‘[01m[Kjerk_1[m[K’ was not declared in this scope
+  416 |                           << joint_state_.position[0] << "," << joint_state_.velocity[0] << "," << joint_state_.effort[0] << "," << [01;31m[Kjerk_1[m[K << ","
+      |                                                                                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_2[m[K’ was not declared in this scope
+  417 |                           << [01;31m[Kposition_2[m[K << "," << velocity_2 << "," << acceleration_2 << "," << jerk_2 <<  "\n";
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_2[m[K’ was not declared in this scope
+  417 |                           << position_2 << "," << [01;31m[Kvelocity_2[m[K << "," << acceleration_2 << "," << jerk_2 <<  "\n";
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kacceleration_2[m[K’ was not declared in this scope
+  417 |                           << position_2 << "," << velocity_2 << "," << [01;31m[Kacceleration_2[m[K << "," << jerk_2 <<  "\n";
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:417:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kjerk_2[m[K’ was not declared in this scope
+  417 |                           << position_2 << "," << velocity_2 << "," << acceleration_2 << "," << [01;31m[Kjerk_2[m[K <<  "\n";
+      |                                                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matus/ros2_ws/src/block2_matuska/src/zadanie22_node.cpp:428:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcsvFile[m[K’ was not declared in this scope
+  428 |     [01;31m[KcsvFile[m[K.close();
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zadanie22_node.dir/build.make:76: CMakeFiles/zadanie22_node.dir/src/zadanie22_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/zadanie22_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

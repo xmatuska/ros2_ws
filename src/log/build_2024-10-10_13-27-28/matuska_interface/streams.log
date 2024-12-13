@@ -1,0 +1,16 @@
+[0.015s] Invoking command in '/home/matus/ros2_ws/src/build/matuska_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/matuska_interface -- -j12 -l12
+[0.046s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.470s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.470s]   rosidl_generate_interfaces() the passed file 'srv/TeachPosition.srv'
+[0.470s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.471s]   '/home/matus/ros2_ws/src/matuska_interface'
+[0.471s] Call Stack (most recent call first):
+[0.471s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[0.471s] 
+[0.471s] [0m
+[0.471s] -- Configuring incomplete, errors occurred!
+[0.475s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.478s] Invoked command in '/home/matus/ros2_ws/src/build/matuska_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matus/ros2_ws/src/build/matuska_interface -- -j12 -l12

@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- Robot State Publisher Node-->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="robot_description" value="$(command 'xacro $(find-pkg-share abb_model)/urdf/abb_irb4600_60_205.xacro')" />
+    </node>
+
+    <!-- Zadanie Node -->
+    <node pkg="block2_matuska" exec="zadanie2_node" name="zadanie2_node" output="screen" />
+
+    <!-- RViz Node -->
+    <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen" />
+</launch>
+
